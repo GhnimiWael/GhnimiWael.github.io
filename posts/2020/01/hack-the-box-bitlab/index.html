@@ -9,7 +9,7 @@
 <meta name="keywords" content="CTF, Security, HTB, blog, infosec, linux, htb-medium, php, rce, git, web, ssh, sudo" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
-<link rel="canonical" href="https://ceso.github.io/posts/2020/01/hack-the-box-bitlab/" />
+<link rel="canonical" href="https://ghnimiwael.github.io/posts/2020/01/hack-the-box-bitlab/" />
 
 
     <title>
@@ -25,21 +25,21 @@
 
 
 
-<link rel="stylesheet" href="https://ceso.github.io/main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css">
+<link rel="stylesheet" href="https://ghnimiwael.github.io/main.min.5dcefbf8102eb536dd3e2de53ffebfa58599ab2435c241a0db81728a5e015f2e.css">
 
 
     
-        <link rel="stylesheet" type="text/css" href="https://ceso.github.io/css/scroll.css">
+        <link rel="stylesheet" type="text/css" href="https://ghnimiwael.github.io/css/scroll.css">
     
 
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="https://ceso.github.io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://ceso.github.io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://ceso.github.io/favicon-16x16.png">
-    <link rel="manifest" href="https://ceso.github.io/site.webmanifest">
-    <link rel="mask-icon" href="https://ceso.github.io/safari-pinned-tab.svg" color="#252627">
-    <link rel="shortcut icon" href="https://ceso.github.io/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ghnimiwael.github.io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ghnimiwael.github.io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ghnimiwael.github.io/favicon-16x16.png">
+    <link rel="manifest" href="https://ghnimiwael.github.io/site.webmanifest">
+    <link rel="mask-icon" href="https://ghnimiwael.github.io/safari-pinned-tab.svg" color="#252627">
+    <link rel="shortcut icon" href="https://ghnimiwael.github.io/favicon.ico">
     <meta name="msapplication-TileColor" content="#252627">
     <meta name="theme-color" content="#252627">
 
@@ -50,13 +50,13 @@
 <meta itemprop="datePublished" content="2020-01-11T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2020-01-11T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="1975">
-<meta itemprop="image" content="https://ceso.github.io/images/htb/bitlab/bitlab-header.jpg">
+<meta itemprop="image" content="https://ghnimiwael.github.io/images/htb/bitlab/bitlab-header.jpg">
 
 
 
 <meta itemprop="keywords" content="linux,htb-medium,php,rce,git,web,ssh,sudo," />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://ceso.github.io/images/htb/bitlab/bitlab-header.jpg"/>
+<meta name="twitter:image" content="https://ghnimiwael.github.io/images/htb/bitlab/bitlab-header.jpg"/>
 
 <meta name="twitter:title" content="Hack The Box - Bitlab"/>
 <meta name="twitter:description" content="My write-up / walkthrough for Bitlab from Hack The Box."/>
@@ -84,11 +84,11 @@
         <div class="container">
             <header class="header">
     <span class="header__inner">
-        <a href="https://ceso.github.io/" style="text-decoration: none;">
+        <a href="https://ghnimiwael.github.io/" style="text-decoration: none;">
     <div class="logo">
         
             <span class="logo__mark">></span>
-            <span class="logo__text">ceso@hogsmeade$ </span>
+            <span class="logo__text">Ghnimi@Wael$ </span>
             <span class="logo__cursor" style=
                   "
                    background-color:#808080;
@@ -102,7 +102,7 @@
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://ceso.github.io/about/">About</a></li><li><a href="https://ceso.github.io/posts/2020/04/hacking/oscp-cheatsheet/">Cheatsheet</a></li><li><a href="https://ceso.github.io/posts/">Posts</a></li><li><a href="https://ceso.github.io/tags/">Tags</a></li>
+    <ul class="menu__inner"><li><a href="https://ghnimiwael.github.io/about/">About</a></li><li><a href="https://ghnimiwael.github.io/posts/2020/04/hacking/oscp-cheatsheet/">Cheatsheet</a></li><li><a href="https://ghnimiwael.github.io/posts/">Posts</a></li><li><a href="https://ghnimiwael.github.io/tags/">Tags</a></li>
     </ul>
 </nav>
 
@@ -140,7 +140,7 @@
       </p>
     </div>
 
-    <h2 class="post-title"><a href="https://ceso.github.io/posts/2020/01/hack-the-box-bitlab/">Hack The Box - Bitlab</a></h2>
+    <h2 class="post-title"><a href="https://ghnimiwael.github.io/posts/2020/01/hack-the-box-bitlab/">Hack The Box - Bitlab</a></h2>
     <div class="post-meta">
       
         <span class="post-date">
@@ -159,21 +159,21 @@
     
       <span class="post-tags">
         
-          #<a href="https://ceso.github.io/tags/linux/">linux</a>&nbsp;
+          #<a href="https://ghnimiwael.github.io/tags/linux/">linux</a>&nbsp;
         
-          #<a href="https://ceso.github.io/tags/htb-medium/">htb-medium</a>&nbsp;
+          #<a href="https://ghnimiwael.github.io/tags/htb-medium/">htb-medium</a>&nbsp;
         
-          #<a href="https://ceso.github.io/tags/php/">php</a>&nbsp;
+          #<a href="https://ghnimiwael.github.io/tags/php/">php</a>&nbsp;
         
-          #<a href="https://ceso.github.io/tags/rce/">rce</a>&nbsp;
+          #<a href="https://ghnimiwael.github.io/tags/rce/">rce</a>&nbsp;
         
-          #<a href="https://ceso.github.io/tags/git/">git</a>&nbsp;
+          #<a href="https://ghnimiwael.github.io/tags/git/">git</a>&nbsp;
         
-          #<a href="https://ceso.github.io/tags/web/">web</a>&nbsp;
+          #<a href="https://ghnimiwael.github.io/tags/web/">web</a>&nbsp;
         
-          #<a href="https://ceso.github.io/tags/ssh/">ssh</a>&nbsp;
+          #<a href="https://ghnimiwael.github.io/tags/ssh/">ssh</a>&nbsp;
         
-          #<a href="https://ceso.github.io/tags/sudo/">sudo</a>&nbsp;
+          #<a href="https://ghnimiwael.github.io/tags/sudo/">sudo</a>&nbsp;
         
       </span>
     
@@ -214,7 +214,7 @@
           <a href="#user">User</a>
   </li></ul>
 </div>
-    <img src="https://ceso.github.io/images/htb/bitlab/info-card.png"  class="center"  style="border-radius: 8px;"  />
+    <img src="https://ghnimiwael.github.io/images/htb/bitlab/info-card.png"  class="center"  style="border-radius: 8px;"  />
 
 
 <h2 id="quick-summary">Quick Summary</h2>
@@ -253,16 +253,16 @@ OS and Service detection performed. Please report any incorrect results at https
 <h2 id="web-enumeration">Web enumeration</h2>
 <p>The home page (<code>http://10.10.10.114/</code>), is just the standard login page which bitlab has:</p>
 
-    <img src="https://ceso.github.io/images/htb/bitlab/1.1-web_enum.png"  class="center"  style="border-radius: 8px;"  />
+    <img src="https://ghnimiwael.github.io/images/htb/bitlab/1.1-web_enum.png"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>We try the links in this page and check if they are working, with it we found <code>Help</code> it is, and we are redirected to a directory listing having a <code>bookmarks.html</code> and open it:</p>
 
-    <img src="https://ceso.github.io/images/htb/bitlab/1.2-web_enum.png"  class="center"  style="border-radius: 8px;"  />
+    <img src="https://ghnimiwael.github.io/images/htb/bitlab/1.2-web_enum.png"  class="center"  style="border-radius: 8px;"  />
 
 
 
-    <img src="https://ceso.github.io/images/htb/bitlab/1.3-web_enum.png"  class="center"  style="border-radius: 8px;"  />
+    <img src="https://ghnimiwael.github.io/images/htb/bitlab/1.3-web_enum.png"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>We notice that <code>Gitlab Login</code> is an obfuscated js code, we jump into deobfuscate it (I used <a href="https://lelinhtinh.github.io/de4js/">de4js</a> but any deobfuscation tool or even a python console will do it):</p>
@@ -276,17 +276,17 @@ OS and Service detection performed. Please report any incorrect results at https
 })()
 </code></pre></div><p>With that we get credentials we could try into the login, an user called <code>clave</code> and a password <code>11des0081x</code>, after we try to login with those credentials we are loged and have access to some projects:</p>
 
-    <img src="https://ceso.github.io/images/htb/bitlab/1.5-web_enum.png"  class="center"  style="border-radius: 8px;"  />
+    <img src="https://ghnimiwael.github.io/images/htb/bitlab/1.5-web_enum.png"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>Taking a deepest look into <code>Profile</code> we find that this project has <a href="https://docs.gitlab.com/ee/topics/autodevops/">Auto DevOps</a> enabled.
 We continue enumerating a bit more, and see that the project called <code>Deployer</code> is in charge to manage to do that: deploy the applications, in the description is given a link pointing to the we take a look into the documentation of <a href="https://docs.gitlab.com/ee/user/project/integrations/webhooks.html">webhooks</a> gitlab has, after it we take a look into <code>index.php</code> to see what it does:</p>
 
-    <img src="https://ceso.github.io/images/htb/bitlab/1.6-web_enum.png"  class="center"  style="border-radius: 8px;"  />
+    <img src="https://ghnimiwael.github.io/images/htb/bitlab/1.6-web_enum.png"  class="center"  style="border-radius: 8px;"  />
 
 
 
-    <img src="https://ceso.github.io/images/htb/bitlab/1.7-web_enum.png"  class="center"  style="border-radius: 8px;"  />
+    <img src="https://ghnimiwael.github.io/images/htb/bitlab/1.7-web_enum.png"  class="center"  style="border-radius: 8px;"  />
 
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;?php</span>
@@ -309,7 +309,7 @@ $branch <span style="color:#f92672">=</span> $payload<span style="color:#f92672"
 <p>We upload the next <a href="https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php">php reverse shell by pentestmonkey</a> changing <code>$ip = '127.0.0.1'</code> and <code>$port = 1234</code> to our ip and the port we will be listening in our machine, afterwards we merge it (we will be automatically redirected to the page for merging it).</p>
 <p>Now, the reverse shell is uploaded, but we still need to execute it, for that is needed to know which one is the path to execute it, if we remember the project <code>Deployer</code> has it&rsquo;s index.php which will print an &ldquo;OK&rdquo; we could try to access the path of deployer and see if it is printed, if it is, then we know that the path for our reverse shell will be <code>http://10.0.0.14/profile/&lt;name of our reverse shell&gt;</code>:</p>
 
-    <img src="https://ceso.github.io/images/htb/bitlab/1.rce.png"  class="center"  style="border-radius: 8px;"  />
+    <img src="https://ghnimiwael.github.io/images/htb/bitlab/1.rce.png"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>Now we know that indeed that the mentioned url above will be the one wee need to use.
@@ -411,7 +411,7 @@ wc -c root.txt
 <h2 id="user">User</h2>
 <p>In the home page of the Profile project, there is a hint, is mentioned a connection postgresql and snippets, we go to the snippets page, and we found we have one</p>
 
-    <img src="https://ceso.github.io/images/htb/bitlab/1-intended_user.png"  class="center"  style="border-radius: 8px;"  />
+    <img src="https://ghnimiwael.github.io/images/htb/bitlab/1-intended_user.png"  class="center"  style="border-radius: 8px;"  />
 
 
 <p>We open it and se it&rsquo;s a script to connect to the database and get a dump of profiles:</p>
@@ -460,7 +460,7 @@ clave@bitlab:~$ wc -c user.txt
           <div class="pagination__buttons">
             
               <span class="button previous">
-                <a href="https://ceso.github.io/posts/2020/02/hack-the-box-ai/">
+                <a href="https://ghnimiwael.github.io/posts/2020/02/hack-the-box-ai/">
                   <span class="button__icon">←</span>
                   <span class="button__text">Hack The Box - AI</span>
                 </a>
@@ -468,7 +468,7 @@ clave@bitlab:~$ wc -c user.txt
             
             
               <span class="button next">
-                <a href="https://ceso.github.io/posts/2020/01/hack-the-box-craft/">
+                <a href="https://ghnimiwael.github.io/posts/2020/01/hack-the-box-craft/">
                   <span class="button__text">Hack The Box - Craft</span>
                   <span class="button__icon">→</span>
                 </a>
@@ -509,7 +509,7 @@ clave@bitlab:~$ wc -c user.txt
             <span>&copy; 2020</span>
             
             <span></span>
-            <span> <a href="https://ceso.github.io/" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+            <span> <a href="https://ghnimiwael.github.io/" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
         </div>
     </div>
     <div class="footer__inner">
@@ -528,11 +528,11 @@ clave@bitlab:~$ wc -c user.txt
 
 
 
-<script type="text/javascript" src="https://ceso.github.io/bundle.min.4a69500057d68129e88f497d354afe68422eb56de6d15e45dbe2190858ea5a76bfcb096406f992984b241db45f47388ac57ab0376e3b32125bef7a8a6d0f06c4.js" integrity="sha512-SmlQAFfWgSnoj0l9NUr&#43;aEIutW3m0V5F2&#43;IZCFjqWna/ywlkBvmSmEskHbRfRziKxXqwN247MhJb73qKbQ8GxA=="></script>
+<script type="text/javascript" src="https://ghnimiwael.github.io/bundle.min.4a69500057d68129e88f497d354afe68422eb56de6d15e45dbe2190858ea5a76bfcb096406f992984b241db45f47388ac57ab0376e3b32125bef7a8a6d0f06c4.js" integrity="sha512-SmlQAFfWgSnoj0l9NUr&#43;aEIutW3m0V5F2&#43;IZCFjqWna/ywlkBvmSmEskHbRfRziKxXqwN247MhJb73qKbQ8GxA=="></script>
 
 
     
-        <script src="https://ceso.github.io/js/scroll.js"></script>
+        <script src="https://ghnimiwael.github.io/js/scroll.js"></script>
     
 
 
