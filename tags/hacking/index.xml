@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hacking on Ceso Adventures</title>
+    <link>https://ceso.github.io/tags/hacking/</link>
+    <description>Recent content in hacking on Ceso Adventures</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ceso.github.io/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Journey in the Dark - An adventure&#39;s tale towards OSCP</title>
+      <link>https://ceso.github.io/posts/2020/04/a-journey-in-the-dark-an-adventures-tale-towards-oscp/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ceso.github.io/posts/2020/04/a-journey-in-the-dark-an-adventures-tale-towards-oscp/</guid>
+      <description>Preface This is the story of how I got my OSCP coming from a background as Linux Sysadmin/DevOps as also which ones are my plans for the future.
+Every tale where there is an adventurer, starts with him (the adventurer) and his friends, these who share the journey providing support and advice through it, as the story moves forward, new characters tend to appear, joining the adventurer in his travel.</description>
+    </item>
+    
+    <item>
+      <title>Hacking/OSCP cheatsheet</title>
+      <link>https://ceso.github.io/posts/2020/04/hacking/oscp-cheatsheet/</link>
+      <pubDate>Tue, 07 Apr 2020 02:30:30 +0000</pubDate>
+      
+      <guid>https://ceso.github.io/posts/2020/04/hacking/oscp-cheatsheet/</guid>
+      <description>Hacking/OSCP Cheatsheet Well, just finished my 90 days journey of OSCP labs, so now here is my cheatsheet of it (and of hacking itself), I will be adding stuff in an incremental way as I go having time and/or learning new stuff. But this is basically the tools I tend to relie and use in this way the most. Hope is helpfull for you!
+Enumeration Network discoverie Nmap I tend to run 3 nmaps, an initial one, a full one and an UDP one, all of them in parallel:</description>
+    </item>
+    
+  </channel>
+</rss>
