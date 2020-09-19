@@ -1,18 +1,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Ceso Adventures</title>
-        <link>https://ceso.github.io/posts/</link>
+        <link>https://ghnimiwael.github.io/posts/</link>
         <description>Recent content in Posts on Ceso Adventures</description>
         <generator>Hugo -- gohugo.io</generator>
         <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
-        <atom:link href="https://ceso.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://ghnimiwael.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Hack The Box - Obscurity</title>
-            <link>https://ceso.github.io/posts/2020/05/hack-the-box-obscurity/</link>
+            <link>https://ghnimiwael.github.io/posts/2020/05/hack-the-box-obscurity/</link>
             <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
             
-            <guid>https://ceso.github.io/posts/2020/05/hack-the-box-obscurity/</guid>
+            <guid>https://ghnimiwael.github.io/posts/2020/05/hack-the-box-obscurity/</guid>
             <description>Quick Summary Well, the last months I have been really away from doing write-ups, specifically due to being full focused on my OSCP which I still can&amp;rsquo;t belive I passed!! I did an extensive write up about my experience going through it, if you still haven&amp;rsquo;t read it you can click here to go to it
 I have more machines to do a write-up of, for example some of them are Postman, Traverxec, Mango, SolidState, OpenAdmin, Chatter Box among others, but well&amp;hellip;I will try to do them as my time allows me hehe.</description>
             <content type="html"><![CDATA[
@@ -20,7 +20,7 @@ I have more machines to do a write-up of, for example some of them are Postman, 
 
 
 <h2 id="quick-summary">Quick Summary</h2>
-<p>Well, the last months I have been really away from doing write-ups, specifically due to being full focused on my OSCP which I still can&rsquo;t belive I passed!! I did an extensive write up about my experience going through it, if you still haven&rsquo;t read it <a href="https://ceso.github.io/posts/2020/04/a-journey-in-the-dark-an-adventures-tale-towards-oscp/">you can click here to go to it</a></p>
+<p>Well, the last months I have been really away from doing write-ups, specifically due to being full focused on my OSCP which I still can&rsquo;t belive I passed!! I did an extensive write up about my experience going through it, if you still haven&rsquo;t read it <a href="https://ghnimiwael.github.io/posts/2020/04/a-journey-in-the-dark-an-adventures-tale-towards-oscp/">you can click here to go to it</a></p>
 <p>I have more machines to do a write-up of, for example some of them are Postman, Traverxec, Mango, SolidState, OpenAdmin, Chatter Box among others, but well&hellip;I will try to do them as my time allows me hehe.</p>
 <p>For today I just decided to write about Obscurity, which I remember when I did it, it was pretty fun, I enjoyed it quite a lot, and it teach me some nice stuff, still remember when I did it I was struggling a bit with the Python stuff and my bro <a href="https://bullsec.xyz/">MrBulldops</a> gave me a hand to understand it a bit better.</p>
 <p>Well, Obscurity is a Linux medium machine, mostly using Python stuff and as the name says before hand, the concept in this one is security by obscurity, so it doesn&rsquo;t use standard web servers and so on, instead it use custom stuff in order to &ldquo;provide security&rdquo; by there being not public ways to exploit it, so you are forced to do some code review, think outside the box, etc.</p>
@@ -656,10 +656,10 @@ uid=0(root) gid=0(root) groups=0(root)
         
         <item>
             <title>A Journey in the Dark - An adventure&#39;s tale towards OSCP</title>
-            <link>https://ceso.github.io/posts/2020/04/a-journey-in-the-dark-an-adventures-tale-towards-oscp/</link>
+            <link>https://ghnimiwael.github.io/posts/2020/04/a-journey-in-the-dark-an-adventures-tale-towards-oscp/</link>
             <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
             
-            <guid>https://ceso.github.io/posts/2020/04/a-journey-in-the-dark-an-adventures-tale-towards-oscp/</guid>
+            <guid>https://ghnimiwael.github.io/posts/2020/04/a-journey-in-the-dark-an-adventures-tale-towards-oscp/</guid>
             <description>Preface This is the story of how I got my OSCP coming from a background as Linux Sysadmin/DevOps as also which ones are my plans for the future.
 Every tale where there is an adventurer, starts with him (the adventurer) and his friends, these who share the journey providing support and advice through it, as the story moves forward, new characters tend to appear, joining the adventurer in his travel.</description>
             <content type="html"><![CDATA[
@@ -728,7 +728,7 @@ For the report itself, I gave me more freedom with it, the aim yes, was to do so
 
 <h4 id="01---note-taking">01 - Note Taking</h4>
 <p>When I started my notes were pure shit, I&rsquo;m sure they still are, but are way better than what they were before. For taking/keeping notes through all the PWK and OSCP, I used Cherrytree, I started with <a href="https://411hall.github.io/assets/files/CTF_template.ctb">this template</a>, but as I moved forward and my own methodology started to develop I modified some stuff, the result was having this template:</p>
-<pre><code class="language-console" data-lang="console">https://ceso.github.io/files/oscp/template_pwk.ctb
+<pre><code class="language-console" data-lang="console">https://ghnimiwael.github.io/files/oscp/template_pwk.ctb
 </code></pre><p><strong>Note:</strong> Something I didn&rsquo;t know during the exam, is that in the past some pepole has lost their notes of Cherrytree because the files got corrupted, then they were unable to  prepare their reports, my advice then is, maybe start with Cherrytree, and as time moves on, switch to some another tool for notetaking, such as <a href="https://joplinapp.org/">joplin</a> or <a href="https://notion.so/">Notion</a> to mention two examples, you will already have some methodology developed or starting to, so it will be easier to create a template adapted to yourself.</p>
 <h4 id="10---the-report">10 - The Report</h4>
 <p>Now, for the report I decided to ditch the doc/.odf templates and just go with something I&rsquo;m more comfortable: Markdown.
@@ -759,7 +759,7 @@ Once ended with this, I came back to the game trying the root on the remaining 2
 <p>Talking a bit on the official chat of HTB, I was told that all the community thinks that when you get half-user, that&rsquo;s half the points, so I ended with the thought I got 90 pts (instead the 80 I thought at first), as the remaining 20 pts, I got the user, but not the root (even if I wasn&rsquo;t able to do PE, in my report I included all my findings and personal thoughts about it).</p>
 <pre><code class="language-console" data-lang="console">ONCE certificate arrives, photo will be here
 </code></pre><h2 id="101-cheatsheet">101: Cheatsheet</h2>
-<p>Something that I found really helpful during the exam, is the <a href="https://ceso.github.io/posts/2020/04/hacking/oscp-cheatsheet/">cheatsheet</a> I made along the course as also all the different resources I normally tend to go looking for some references stuff (for example PayloadAllTheThings), you can find a direct link to my Cheatsheet always in the upper right corner of the blog.</p>
+<p>Something that I found really helpful during the exam, is the <a href="https://ghnimiwael.github.io/posts/2020/04/hacking/oscp-cheatsheet/">cheatsheet</a> I made along the course as also all the different resources I normally tend to go looking for some references stuff (for example PayloadAllTheThings), you can find a direct link to my Cheatsheet always in the upper right corner of the blog.</p>
 <p>Take cheatsheets from other people, start figuring out what stuff is the one you use the more, what&rsquo;s helpfull, what is granted you will not remember, try to develop your own as you progress to the labs, it is really helpfull and also helps to &ldquo;solidify&rdquo; more the stuff in your mind.</p>
 <h2 id="110-a-look-into-the-future">110: A look into the future</h2>
 <p>Yesterday 2020/04/26 I woke up having a message from Off Sec saying I passed, such a good way to wake up, passing OSCP at my first attempt during one of the most shitty moments I have ever lived :).
@@ -776,10 +776,10 @@ Take rests, eat, be aware what you are lacking on your documentation and what is
         
         <item>
             <title>Hacking/OSCP cheatsheet</title>
-            <link>https://ceso.github.io/posts/2020/04/hacking/oscp-cheatsheet/</link>
+            <link>https://ghnimiwael.github.io/posts/2020/04/hacking/oscp-cheatsheet/</link>
             <pubDate>Tue, 07 Apr 2020 02:30:30 +0000</pubDate>
             
-            <guid>https://ceso.github.io/posts/2020/04/hacking/oscp-cheatsheet/</guid>
+            <guid>https://ghnimiwael.github.io/posts/2020/04/hacking/oscp-cheatsheet/</guid>
             <description>Hacking/OSCP Cheatsheet Well, just finished my 90 days journey of OSCP labs, so now here is my cheatsheet of it (and of hacking itself), I will be adding stuff in an incremental way as I go having time and/or learning new stuff. But this is basically the tools I tend to relie and use in this way the most. Hope is helpfull for you!
 Enumeration Network discoverie Nmap I tend to run 3 nmaps, an initial one, a full one and an UDP one, all of them in parallel:</description>
             <content type="html"><![CDATA[<h1 id="hackingoscp-cheatsheet">Hacking/OSCP Cheatsheet</h1>
@@ -1193,10 +1193,10 @@ EOF
         
         <item>
             <title>Hack The Box - AI</title>
-            <link>https://ceso.github.io/posts/2020/02/hack-the-box-ai/</link>
+            <link>https://ghnimiwael.github.io/posts/2020/02/hack-the-box-ai/</link>
             <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
             
-            <guid>https://ceso.github.io/posts/2020/02/hack-the-box-ai/</guid>
+            <guid>https://ghnimiwael.github.io/posts/2020/02/hack-the-box-ai/</guid>
             <description>Quick Summary Finally, I&amp;rsquo;m posting the walk-through of this box, currently, I&amp;rsquo;m preparing my OSCP so most of my free time goes dedicated to it :D. At the time I did this box, I was only documenting with screenshots, so some dates could differ between the write up below as I accessed now to get plain text to not overload this with screenshots.
 This was a box where for the foothold, you needed to upload a .</description>
             <content type="html"><![CDATA[
@@ -1422,10 +1422,10 @@ wc -c /root/root.txt
         
         <item>
             <title>Hack The Box - Bitlab</title>
-            <link>https://ceso.github.io/posts/2020/01/hack-the-box-bitlab/</link>
+            <link>https://ghnimiwael.github.io/posts/2020/01/hack-the-box-bitlab/</link>
             <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
             
-            <guid>https://ceso.github.io/posts/2020/01/hack-the-box-bitlab/</guid>
+            <guid>https://ghnimiwael.github.io/posts/2020/01/hack-the-box-bitlab/</guid>
             <description>Quick Summary First than everything, I need to make clear that this box has 2 ways for doing privilege escalation: one is doing reversing and the other taking advantage of a misconfiguration with sudo and git. I will describe the steps for the sudo + git path as I&amp;rsquo;m just starting to do my first steps into more low-level stuff. Despite this, in the future I will actualize this post to reflect also the reversing path.</description>
             <content type="html"><![CDATA[
     <img src="/images/htb/bitlab/info-card.png"  class="center"  style="border-radius: 8px;"  />
@@ -1667,10 +1667,10 @@ clave@bitlab:~$ wc -c user.txt
         
         <item>
             <title>Hack The Box - Craft</title>
-            <link>https://ceso.github.io/posts/2020/01/hack-the-box-craft/</link>
+            <link>https://ghnimiwael.github.io/posts/2020/01/hack-the-box-craft/</link>
             <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
             
-            <guid>https://ceso.github.io/posts/2020/01/hack-the-box-craft/</guid>
+            <guid>https://ghnimiwael.github.io/posts/2020/01/hack-the-box-craft/</guid>
             <description>Quick Summary So!! Today was just retired Craft from Hack the box, this was a really fun box to do, and also I felt pretty well doing it, because even if I needed some nudges, it was actually the first box I got to the foothold without hints (elsen if I needed some guidance with python, thanks a lot @Frundrod!!), and afterward to get user I was a bit lost and also needed some hints (was not realizing something I have literally in my nose, thankss a lot @Fugl!</description>
             <content type="html"><![CDATA[
     <img src="/images/htb/craft/info-card.png"  class="center"  style="border-radius: 8px;"  />
@@ -2122,10 +2122,10 @@ Again I enjoyed quite a lot doing this box a few hours it was going to be retire
         
         <item>
             <title>shutdown -r now</title>
-            <link>https://ceso.github.io/posts/2019/12/shutdown-r-now/</link>
+            <link>https://ghnimiwael.github.io/posts/2019/12/shutdown-r-now/</link>
             <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
             
-            <guid>https://ceso.github.io/posts/2019/12/shutdown-r-now/</guid>
+            <guid>https://ghnimiwael.github.io/posts/2019/12/shutdown-r-now/</guid>
             <description>Note: First than everything, sorry the english, is not my native language and always learning new stuff about it.
 I have always been thinking about writing a blog, but my mindset has always been the same &amp;ldquo;me? a blog? what am I supposed to post! I can&amp;rsquo;t even think anything I could share with people, I don&amp;rsquo;t know nothing compared to the people who blogs!&amp;quot;, currently that mindset has been changing.</description>
             <content type="html"><![CDATA[<p>Note: First than everything, sorry the english, is not my native language and always learning new stuff about it.</p>
