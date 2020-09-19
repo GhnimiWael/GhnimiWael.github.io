@@ -211,17 +211,15 @@ I have more machines to do a write-up of, for example some of them are Postman, 
           <a href="#root">root</a>
   </li></ul>
 </div>
-    <img src="https://ghnimiwael.github.io/images/htb/obscurity/info-card.png"  class="center"  style="border-radius: 8px;"  />
+    <img src="https://ghnimiwael.github.io/images/tools/burpsuite/burp1.png"  class="center"  style="border-radius: 8px;"  />
 
 
-<h2 id="quick-summary">Quick Summary</h2>
-<p>Well, the last months I have been really away from doing write-ups, specifically due to being full focused on my OSCP which I still can&rsquo;t belive I passed!! I did an extensive write up about my experience going through it, if you still haven&rsquo;t read it <a href="https://ghnimiwael.github.io/posts/2020/04/a-journey-in-the-dark-an-adventures-tale-towards-oscp/">you can click here to go to it</a></p>
-<p>I have more machines to do a write-up of, for example some of them are Postman, Traverxec, Mango, SolidState, OpenAdmin, Chatter Box among others, but well&hellip;I will try to do them as my time allows me hehe.</p>
-<p>For today I just decided to write about Obscurity, which I remember when I did it, it was pretty fun, I enjoyed it quite a lot, and it teach me some nice stuff, still remember when I did it I was struggling a bit with the Python stuff and my bro <a href="https://bullsec.xyz/">MrBulldops</a> gave me a hand to understand it a bit better.</p>
-<p>Well, Obscurity is a Linux medium machine, mostly using Python stuff and as the name says before hand, the concept in this one is security by obscurity, so it doesn&rsquo;t use standard web servers and so on, instead it use custom stuff in order to &ldquo;provide security&rdquo; by there being not public ways to exploit it, so you are forced to do some code review, think outside the box, etc.</p>
-<p>Cutting the chit-chat let&rsquo;s go into the write up!</p>
-<h2 id="nmap">Nmap</h2>
-<p>We start with nmap to see which ports are there open:</p>
+<h2 id="quick-summary">What is Burpsuite</h2>
+<p>Burpsuite is like the swiss knife of web penetration testing, it is a tool mostly used to intercept and modify request before they get to the server and it can also be used to intercept response and it can be used for other stuffs like decoding hashes, spidering a website, e.t.c. It can be used to discover and exploit various vulnerabilities such as SQL, XSS, CSRF, SSRF, and some other cool vulnerabilities.</p>
+<p>This wonderful tool was developed by Portswigger. It comes pre-installed on Kali linux and another penetration testing intended O.S, other Linux users can download and install it from their website, if you are a windows user, you can also download and install it manually yourself at Burpsuite Website. Enough of long talk, let’s get started with setting up</p>
+
+<h2 id="nmap">Setting up on Mozilla Firefox</h2>
+<p>To use Burpsuite with firefox you need a proxy, there are tons of tutorials out there that teaches setting up the proxy to use with burpsuite but from experience switching from the proxy to the default firefox settings can be stressful so for this tutorial we will be using a Mozilla addon called <a href="https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/" alt="_blank">foxyproxy</a>, feel free to google it up and install the addon on your browser.</p>
 <pre><code class="language-console" data-lang="console">root@kali:~/Documents/HTB/boxes/medium/linux/obscurity# nmap -sC -sV -O  10.10.10.168 -o initial-nmap-obscurity.htb 
 Starting Nmap 7.80 ( https://nmap.org ) at 2019-12-17 16:42 EST
 Nmap scan report for 10.10.10.168
