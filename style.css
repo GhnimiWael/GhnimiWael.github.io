@@ -19,7 +19,7 @@ canvas {
 
 body {
   background: #000000;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/12399/free-pumpkin-wallpaper-25771-26455-hd-wallpapers.jpg");
+  background-image: url("./slide01.jpg");
   background-position: top center;
   background-size: cover;
   color: #fff;
