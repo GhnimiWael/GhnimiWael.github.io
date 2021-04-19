@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Count - Static</title>
+    <title>Count - Particles</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -35,14 +35,16 @@
 
     <!-- home
     ================================================== -->
-    <main class="s-home s-home--static">
+    <main class="s-home s-home--particles">
 
-        <div class="overlay"></div>
+        <div id="particles-js" class="home-particles"></div>
+        
+        <div class="gradient-overlay"></div>
 
         <div class="home-content">
 
             <div class="home-logo">
-                <a href="index-static.html">
+                <a href="index-particles.html">
                     <img src="images/logo.svg" alt="Homepage">
                 </a>
             </div>
@@ -122,11 +124,13 @@
                 <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
             </div> <!-- end home-copyright -->
 
+
             <div class="home-content__line"></div>
 
         </div> <!-- end home-content -->
 
     </main> <!-- end s-home -->
+
 
     <!-- info
     ================================================== -->
@@ -227,6 +231,7 @@
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
+    <script src="js/polygons.js"></script>
     <script src="js/main.js"></script>
 
 </body>
