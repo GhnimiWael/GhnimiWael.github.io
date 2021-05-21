@@ -1,0 +1,629 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>PFE Questions</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+.select-value-color-default { background-color: rgba(206,205,202,0.5); }
+.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
+.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
+.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
+.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
+.select-value-color-green { background-color: rgba(0,135,107,0.2); }
+.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
+.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
+.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
+.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="1f2e689a-7f8c-44b6-b23b-dd334034611e" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">🎓</span></div><h1 class="page-title">PFE Questions</h1></header><div class="page-body"><ul id="f6400325-ba65-4a27-a5bf-5b0bad88fa28" class="toggle"><li><details open=""><summary>Définir un signal?</summary><p id="1567fc50-3672-40d6-9b62-c83cb064d9c7" class="">Un signal est la variation d&#x27;une grandeur et est porteur d&#x27;une information.</p></details></li></ul><ul id="06e2a750-11a1-4b9e-aa29-81966688ae21" class="toggle"><li><details open=""><summary>Définit le traitement de signal?</summary><p id="b91ddac8-3d90-4740-93a2-94a4cbc3e476" class="">Le traitement du signal est la discipline qui développe et étudie les techniques de traitement, d&#x27;analyse et d&#x27;interprétation des signaux.</p></details></li></ul><ul id="768baf8f-7d08-452f-9f86-a0170f0a55db" class="toggle"><li><details open=""><summary>Définir un virus informatique</summary><p id="d4a07a9c-f09d-4c07-8c99-de80bf45fe1f" class="">: Un virus informatique est un programme écrit dans le but de se propager sournoisement et rapidement à d&#x27;autres ordinateurs.</p></details></li></ul><ul id="5a2bf9b0-68bd-415c-8669-2ce2f750dfe4" class="toggle"><li><details open=""><summary>Les principales attaques?</summary><ul id="dac1a7cf-71e3-43a3-90e9-b0b4b6769dfb" class="bulleted-list"><li><strong>Ver </strong>→ Un ver informatique est un logiciel malveillant qui se reproduit sur plusieurs ordinateurs en utilisant un réseau informatique comme Internet.</li></ul><ul id="e95b0c81-e56a-406e-b645-209a17a31869" class="bulleted-list"><li><strong>Dos </strong>→ L&#x27;attaque par déni de service est une cyberattaque dans laquelle l&#x27;auteur cherche à rendre une machine ou une ressource réseau indisponible pour ses utilisateurs prévus en perturbant temporairement ou indéfiniment les services d&#x27;un hôte connecté à Internet.</li></ul><ul id="b6e08737-f946-492b-83e0-8f9163298de7" class="bulleted-list"><li><strong>écoute de réseau</strong> → st un dispositif permettant d&#x27;« écouter » le trafic d&#x27;un réseau, c&#x27;est-à-dire de capturer les informations qui y circulent.</li></ul><ul id="f36054d0-2732-40df-8239-3bc80fcc9617" class="bulleted-list"><li><strong>Intrusion </strong>→ Un système de détection d&#x27;intrusion (ou IDS : Intrusion detection System) est un mécanisme destiné à repérer des activités anormales ou suspectes sur la cible analysée (un réseau ou un hôte). Il permet ainsi d&#x27;avoir une connaissance sur les tentatives réussie comme échouées des intrusions.</li></ul><ul id="9216388d-6918-4c6d-9ea8-2eb2889df7df" class="bulleted-list"><li><strong>Cheval de troie</strong> → Un cheval de Troie (Trojan horse en anglais) est un type de logiciel malveillant, qui ne doit pas être confondu avec les virus ou autres parasites.</li></ul><ul id="1f5d1379-4f57-4cb9-a9cd-f52b5a7b6e35" class="bulleted-list"><li><strong>Social Engineering</strong> → est une technique qui a pour but d&#x27;extirper des informations à des personnes sans qu&#x27;elles ne s&#x27;en rendent compte. Contrairement aux autres attaques, elle ne nécessite pas de logiciel.</li></ul></details></li></ul><ul id="c0d3647f-4e24-4c88-aaa4-968fd8b12e14" class="toggle"><li><details open=""><summary>Définir le réseau ?</summary><ul id="aa9dd251-8cc8-4623-979d-9df0051fda08" class="bulleted-list"><li>En informatique, un réseau désigne une série de machines ou noeuds interconnectés par des chemins de communication.</li></ul></details></li></ul><ul id="ecae4d4b-9193-413f-8fdc-8a79b2e883b3" class="toggle"><li><details open=""><summary>Les couches de modèles OSI?</summary><figure id="43eb5a14-35bb-43d9-971d-fc99b86fe982" class="image"><a href="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled.png"><img style="width:330px" src="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled.png"/></a></figure></details></li></ul><ul id="5ea84497-ea8e-41cf-bbba-3631a11cb790" class="toggle"><li><details open=""><summary>Les types du réseau?</summary><ul id="9910835a-b8f5-4a47-8693-dbd218459cf5" class="bulleted-list"><li>Personal Area Network (PAN) ou <strong>réseau</strong> personnel.</li></ul><ul id="4b87cdcc-99c0-417f-a3fd-f8368cd215cb" class="bulleted-list"><li>Local Area Network (LAN) ou <strong>réseau</strong> local.</li></ul><ul id="d14eccb4-f2ea-464e-b81b-2901343e18bb" class="bulleted-list"><li>Metropolitan Area Network (MAN) ou <strong>réseau</strong> métropolitain.</li></ul><ul id="8af6a885-18a9-4c8f-b543-8126da0701ec" class="bulleted-list"><li>Wide Area Network (WAN) ou <strong>réseau</strong> étendu.</li></ul><ul id="4e695b09-e2af-4e3b-a26b-fc59685f856e" class="bulleted-list"><li>Global Area Network (GAN) ou <strong>réseau</strong> global.
+</li></ul></details></li></ul><ul id="79772571-3d4a-4511-a72f-ebd3ed380aa8" class="toggle"><li><details open=""><summary>Les modes de transmission?</summary><ul id="7cb19a9e-5ba8-432c-a8a0-21a1a4b662af" class="bulleted-list"><li>Liaisons simplex</li></ul><ul id="125d2cc1-855c-438a-bf0b-e20d6d1619e4" class="bulleted-list"><li>half-duplex</li></ul><ul id="bc4b8f83-880e-4483-8b49-b2bf8e0b0a8b" class="bulleted-list"><li>full-duplex</li></ul></details></li></ul><ul id="5d8aff76-d8a2-4c9d-bfda-ba462c1cfe35" class="toggle"><li><details open=""><summary>ARP?, RIP?, RARP?, HTTP, DNS, FTP</summary><ul id="497e0bcf-d0a2-4869-87e3-302917b58a10" class="bulleted-list"><li>ARP → Address Resolution Protocol</li></ul><ul id="ac184a27-0709-427d-b5cd-2875e0adb952" class="bulleted-list"><li>RIP → Routing Information Protocol</li></ul><ul id="3284e60f-f537-4133-be00-99475fe808bc" class="bulleted-list"><li>RARP → Reverse Address Resolution Protocol</li></ul><ul id="5b0cd06f-7b65-4b50-afbd-220825c654b0" class="bulleted-list"><li>HTTP → Hyper Text Transfer Protocol</li></ul><ul id="9c9dba0d-52b2-430d-96c8-23d0917775a3" class="bulleted-list"><li>DNS → Domain Name System</li></ul><ul id="9aa617fa-b18c-47e6-83db-b00c5514d719" class="bulleted-list"><li>FTP → File Transfer Protocol</li></ul></details></li></ul><ul id="88416f80-8f9a-4c16-ba2d-45fe3b91a1dc" class="toggle"><li><details open=""><summary>Définir un socket?</summary><p id="91222de2-1638-43f3-bef0-8fd0016027cf" class="">Une socket est connue comme un type de logiciel qui agit comme un point d&#x27;extrémité qui fonctionne en établissant une liaison de communication réseau bidirectionnelle entre l&#x27;extrémité du serveur et le programme de réception du client.</p></details></li></ul><ul id="8977d8eb-9254-447a-84ee-0c64b7e3e9ff" class="toggle"><li><details open=""><summary>Quelle est la différences entre algorithme et programme?</summary><p id="1b607937-9d8e-4d6a-abb9-70c473926e85" class="">Un algorithme est un objet abstrait définissant un calcul, exprimé en langage mathématique, et analysable mathématiquement. A l&#x27;inverse, un programme logiciel est un objet éminemment concret, souvent de grande taille.</p></details></li></ul><ul id="4f0cef2d-6007-4d8b-ab85-4be433bff3d5" class="toggle"><li><details open=""><summary>Définir le mécanisme de polymorphisme en JAVA?</summary><p id="14564c8c-182b-41bf-b99f-29ebedc033a6" class="">Il permet de modifier le comportement d&#x27;une classe fille par rapport à sa classe mère. Le polymorphisme permet d&#x27;utiliser l&#x27;héritage comme un mécanisme d&#x27;extension en adaptant le comportement des objets.</p></details></li></ul><ul id="f7f44449-47ac-49f5-86f1-b45bd9e416e3" class="toggle"><li><details open=""><summary>Les algorithmes de tri?</summary><p id="20c03a0b-9a6f-4172-b540-8383b18417a2" class="">Un algorithme de tri est, en informatique ou en mathématiques, un algorithme qui permet d&#x27;organiser une collection d&#x27;objets selon une relation d&#x27;ordre déterminée.</p></details></li></ul><ul id="774cf451-8ad0-4296-b3b9-aa34e9248496" class="toggle"><li><details open=""><summary>Complexité de tri?</summary><p id="0d5f25e4-1721-4df4-9bfe-b9c34f4d1756" class="">Θ(n2)</p></details></li></ul><ul id="65ea9843-1529-4ac8-8a36-d42cdc3d16e8" class="toggle"><li><details open=""><summary>Hoax?</summary><p id="3f1a5cb8-8c9e-420f-ba71-73d891480ffc" class="">A computer virus hoax is a message warning the recipients of a non-existent computer virus threat.</p></details></li></ul><ul id="ec2cb253-3cff-4f62-898e-a47bdc15c0ec" class="toggle"><li><details open=""><summary>Quelle est la différence entre composition et Agrégation?</summary><p id="f51e913e-c629-49a3-a58c-da1be82ec59d" class="">La composition est une relation plus forte que l&#x27;agrégation. Les éléments de l&#x27;ensemble « appartiennent » de manière exclusive à l&#x27;ensemble, contrairement à l&#x27;agrégation qui autorise qu&#x27;un élément appartienne à plusieurs ensembles. Par ailleurs, un élément n&#x27;existe pas sans être dans un ensemble.</p></details></li></ul><ul id="3036e398-5987-42bc-9fd1-f9281cec7339" class="toggle"><li><details open=""><summary>UML? → Unified Modeling Language</summary><ul id="0f62e304-e4c4-4850-a091-97f50875041f" class="bulleted-list"><li>Les diagrammes statiques?<ul id="fa39cc12-2cc3-42a8-9600-bb5d0c43c0b9" class="bulleted-list"><li>Les diagrammes de structure (structure diagrams) ou diagrammes statiques (static diagrams) rassemblent : Diagramme de classes (class diagram) : représentation des classes intervenant dans le système. Diagramme d&#x27;objets (object diagram) : représentation des instances de classes (objets) utilisées dans le système.</li></ul></li></ul><ul id="d554fa31-4cad-45fd-88d0-8bc8aa86d1fb" class="bulleted-list"><li>Les diagrammes dynamiques?<ul id="1f716041-ad02-41e7-9259-ad1aa43d8f80" class="bulleted-list"><li>Le modèle dynamique montre le comportement du système, les interactions des objets et leur évolution dans le temps. Accent mis sur la chronologie.</li></ul></li></ul></details></li></ul><ul id="0501efbe-2dc0-4baa-95a6-4a4360eeefb3" class="toggle"><li><details open=""><summary>définir le cloud computing?</summary><p id="98b6511d-fc08-456c-ab6d-20c68e25f556" class="">le cloud computing est la fourniture de services informatiques (notamment des serveurs, du stockage, des bases de données, la gestion réseau, des logiciels, des outils d&#x27;analyse, l&#x27;intelligence artificielle) via Internet (le cloud)</p></details></li></ul><ul id="938e5548-f0e3-4c77-8780-6b218e0e2e0d" class="toggle"><li><details open=""><summary>définir le big data?</summary><p id="90da15ae-849b-4c2a-b351-8b30b345e546" class="">Le Big Data est un domaine qui traite des moyens d&#x27;analyser, d&#x27;extraire systématiquement des informations ou de traiter autrement des ensembles de données qui sont trop volumineux ou complexes pour être traités par des logiciels d&#x27;application de traitement de données traditionnels.</p></details></li></ul><ul id="e315b395-1920-4a84-888f-dd142443d788" class="toggle"><li><details open=""><summary>Quelle est la différence entre TAS (heap) et Pile (stack)?</summary><ul id="b835b7fc-58a1-454f-94d3-c7e621a48ffd" class="bulleted-list"><li>Pile: Une pile est une structure de données linéaire dans laquelle les éléments ne peuvent être insérés et supprimés en haut de la liste. Une pile suit le principe LIFO (dernier entré, premier sorti), c’est-à-dire que l’élément inséré en dernier est le premier élément à sortir.</li></ul><ul id="ae8e7983-5bb8-4662-9dd0-12565a2c5e9c" class="bulleted-list"><li>File: Une file est une structure de données linéaire dans laquelle les éléments ne peuvent être insérés que en arrière, et les éléments ne peuvent être supprimés que en avant. La file suit le principe FIFO (premier entré, premier sorti), c’est-à-dire que l’élément inséré en premier dans la liste est le premier élément à être supprimé de la liste.</li></ul></details></li></ul><ul id="fca8b7fa-e2be-4366-9a09-46fc342d3cf8" class="toggle"><li><details open=""><summary>Définir la liste chainée?</summary><p id="7c16ebd4-5c22-4d51-8a32-06cfa3b28856" class="">Une liste chaînée désigne en informatique une structure de données représentant une collection ordonnée et de taille arbitraire d&#x27;éléments de même type, dont la représentation en mémoire de l&#x27;ordinateur est une succession de cellules faites d&#x27;un contenu et d&#x27;un pointeur vers une autre cellule.</p></details></li></ul><ul id="1b72b9c0-61b4-4a44-8f66-bfea03edc4c4" class="toggle"><li><details open=""><summary>Définir l’AGL?</summary><ul id="504017a7-a1c7-49bc-ba3e-ca0511b54002" class="bulleted-list"><li>Un atelier de génie logiciel (AGL), ou des outils CASE pour Computer Aided Software Engineering, désigne un ensemble de programmes informatiques permettant eux-mêmes de produire des programmes de manière industrielle.</li></ul><ul id="99b2b1ce-b8bb-4b80-b065-27953a0c9dc1" class="bulleted-list"><li>Agile / Cascade<figure id="19086936-e453-45fa-99dc-e62710c95c76" class="image"><a href="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled%201.png"><img style="width:624px" src="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled%201.png"/></a></figure></li></ul><ul id="35d17c85-b46b-4b3a-9dd5-2f90c99e0253" class="bulleted-list"><li>Scrum<figure id="fc50a587-e74b-4855-bfe0-cc0031e80b75" class="image"><a href="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled%202.png"><img style="width:576px" src="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled%202.png"/></a></figure></li></ul><ul id="d47d9863-920f-4576-a9fd-ae644dc801b4" class="bulleted-list"><li>V<figure id="3bff92e6-02c3-47ed-9a51-ac650fa5aece" class="image"><a href="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled%203.png"><img style="width:500px" src="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled%203.png"/></a></figure></li></ul><ul id="f2d60d54-1cbe-4834-b8e8-e0328a7c47bd" class="bulleted-list"><li>RAD</li></ul><figure id="8d8e3e03-757e-4d52-8ce1-64439debe792" class="image"><a href="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled%204.png"><img style="width:388px" src="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled%204.png"/></a></figure></details></li></ul><ul id="5f4796d7-31c4-4846-b9b7-051b8a08c734" class="toggle"><li><details open=""><summary>Définir un système?</summary><p id="64cffae1-e282-4245-bcd5-d3df6fa497a3" class="">Un système est un ensemble d&#x27;éléments interagissant entre eux selon certains principes ou règles.</p></details></li></ul><ul id="d7039b39-026d-47ab-b9bb-14a30f73f034" class="toggle"><li><details open=""><summary>Que représente le mot &quot;Static&quot; en JAVA</summary><p id="0fdbf3c7-397a-4a6a-b454-c06525863e31" class="">Dans le langage de programmation Java, le mot-clé static indique que le membre en question appartient à lui-même et non à une instance de ce type. Cela signifie qu&#x27;une seule instance de ce membre statique est créée et est partagée par toutes les instances de la classe.</p></details></li></ul><ul id="a60c2569-02fc-45ac-b73a-60bed97f6680" class="toggle"><li><details open=""><summary>Quelle est la différence entre arbre binaire et arbre binaire de recherche ?</summary><p id="b581c358-4909-4bf9-996c-c8b30c9be3b6" class="">Un arbre binaire est un arbre dont les enfants n&#x27;ont jamais plus de deux ans. Un arbre de recherche binaire suit l&#x27;invariant selon lequel l&#x27;enfant gauche doit avoir une valeur inférieure à la clé du nœud racine, tandis que l&#x27;enfant droit doit avoir une valeur supérieure à la clé du nœud racine.</p></details></li></ul><ul id="fc6ab924-2441-4574-9c29-1f287804279b" class="toggle"><li><details open=""><summary>Quelle est la différence entre une interface et une classe abstraite ?</summary><p id="463edd1e-a657-4b23-b301-092226e14891" class="">Une classe abstraite ne peut hériter qu&#x27;une classe ou une classe abstraite à la fois. Les interfaces ne peuvent être héritées que par des interfaces. Les classes doivent les implémentées au lieu d&#x27;être héritées. Dans une interface, le mot clé «abstract» est facultatif pour déclarer une méthode en tant que abstract.</p></details></li></ul><ul id="da885454-9e6b-4341-8c64-42934b7c3490" class="toggle"><li><details open=""><summary>Définir l’ontologie? OWL</summary><ul id="86057d75-ba1c-44a1-a0c2-d64042267e42" class="bulleted-list"><li>Web Ontology Language (OWL) est un langage de représentation des connaissances construit sur le modèle de données de RDF. Il fournit les moyens pour définir des ontologies web structurées. Sa deuxième version est devenue une recommandation du W3C fin 2012.</li></ul><ul id="3054bd11-6512-4257-9381-bc348dcd183c" class="bulleted-list"><li>rdf?<ul id="0fbd5d05-ea53-4a29-9b7b-a0ea4ce27105" class="bulleted-list"><li>RDF stands for Resource Description Framework. RDF is a framework for describing resources on the web. RDF is designed to be read and understood by computers. RDF is not designed for being displayed to people. RDF is written in XML.</li></ul></li></ul></details></li></ul><ul id="6a7fd2a2-74aa-4205-94b2-ab1d995721ab" class="toggle"><li><details open=""><summary>Différence entre JAVA et JavaScript?</summary><p id="0c96e3cc-6346-47a2-bab1-fc8bd424be80" class="">Java est un langage de programmation OOP (Object Oriented Programming) tandis que JavaScript est un langage de script OOP. Java permet de créer des applications qui sont exécutées sur une machine ou un navigateur virtuel tandis que le code JavaScript est exécuté uniquement sur un navigateur.</p></details></li></ul><ul id="b0fbcba0-08b9-4ada-8d52-eef2bbb00f24" class="toggle"><li><details open=""><summary>code ASCII?</summary><p id="3b64d0c9-87ae-4f96-b686-d6c144c0633e" class="">ASCII, abbreviated from American Standard Code for Information Interchange, is a character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices</p><figure id="5f854164-6972-490f-8f1f-356903e9a482" class="image"><a href="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled%205.png"><img style="width:816px" src="PFE%20Questions%2043eb5a1435bb43d9971dfc99b86fe982/Untitled%205.png"/></a></figure></details></li></ul><ul id="781e2845-28ff-441c-ac16-c5a66708258f" class="toggle"><li><details open=""><summary>Héritage multiple en C et en Java?</summary><p id="733a3d6a-4739-4fb4-8f33-3a4b39a42274" class="">C #, comme Java, soutient le concept d&#x27;une interface qui est apparentée à une classe abstraite pure. De même C # et Java tous les deux permettent seulement la transmission simple des classes mais la transmission multiple (ou l&#x27;exécution) des interfaces.</p></details></li></ul><ul id="8ab8cabe-3586-4c36-b1a4-82045d4b0af1" class="toggle"><li><details open=""><summary>Définir la recursivité?</summary><p id="ad185933-44ca-4d25-945c-d74677a0a35e" class="">La récursivité est une démarche qui fait référence à l&#x27;objet même de la démarche à un moment du processus</p></details></li></ul><ul id="baf9f7e8-cec2-4c45-be86-e9f83666f7ae" class="toggle"><li><details open=""><summary>Les algorithmes de tri?</summary><ul id="a6c51c1c-9305-4f29-a73d-3cdb9827726e" class="bulleted-list"><li>Tri rapide</li></ul><ul id="0d3c61d6-6de2-4950-a821-74335cce4e09" class="bulleted-list"><li>Tri fusion</li></ul><ul id="5633016d-557e-4194-86ca-7a1f39db42ba" class="bulleted-list"><li>Tri par tas</li></ul><ul id="d9d4b3fb-34f9-4082-851d-f13d2c8f37d2" class="bulleted-list"><li>Tri par insertion</li></ul><ul id="df4519b1-58f3-44be-b8df-2a004d7f91aa" class="bulleted-list"><li>Tri a bulles</li></ul></details></li></ul><ul id="f9a89260-377b-4c44-833e-8fafbba3131f" class="toggle"><li><details open=""><summary>XML?</summary><ul id="a540706f-9486-4401-aead-e397278859c9" class="bulleted-list"><li>Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The World Wide Web Consortium&#x27;s XML 1.0 Specification of 1998 and several other related specifications—all of them free open standards—define XML.</li></ul></details></li></ul><ul id="209dc418-9c9c-4e99-a9a5-a77cfbe468d2" class="toggle"><li><details open=""><summary>Thread?</summary><p id="37f9203f-a597-4605-83f5-8cff49cff3ed" class="">En informatique, un fil d&#x27;exécution est la plus petite séquence d&#x27;instructions programmées pouvant être gérée indépendamment par un ordonnanceur, qui fait généralement partie du système d&#x27;exploitation. Wikipédia</p></details></li></ul><ul id="c62c810c-dbb7-4683-b160-eeb81641f352" class="toggle"><li><details open=""><summary>Gestion Entée / Sorite (Buffered Reader / Inputstream Reader)AC</summary></details></li></ul><ul id="77d85872-27dc-4f39-acb5-9d8d6a9f430a" class="toggle"><li><details open=""><summary>Les paradigme de programmation OO?</summary><p id="22ac5c21-257d-43b3-b811-6c587ec4a99e" class="">La programmation orientée objet est un paradigme de programmation qui permet de modéliser son code sous forme d&#x27;objets ayant des propriétés et de méthodes et qui interagissent entre eux plutôt qu&#x27;une séquence d&#x27;instructions. L&#x27;abstraction est le principe le plus fondamental de la programmation orientée objet.</p></details></li></ul><ul id="d7d7ee0a-279f-412c-8a98-6e37b1894972" class="toggle"><li><details open=""><summary>Servlet / JSP?</summary><p id="05345ce5-7342-43b1-bf03-4643bc60699e" class="">Servlet is a java code. JSP is a html based code. Writing code for servlet is harder than JSP as it is html in java. JSP is easy to code as it is java in html. ... JSP is slower than Servlet because the first step in JSP lifecycle is the translation of JSP to java code and then compile.</p></details></li></ul><p id="aca846de-c56d-49bf-aa35-06b92532ce79" class="">
+</p></div></article></body></html>
