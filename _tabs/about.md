@@ -5,7 +5,7 @@ order: 4
 ---
 # Wael Ghnimi aka 0xWael
 
-> Cyber Threat Intelligence Analyst | X Red-Teamer | X Blue-Teamer
+> Cyber Threat Intelligence Analyst | X-Red-Teamer | X-Blue-Teamer
 
 ## Certifications
 eWAPTx - Web application Penetration Tester eXtreme
