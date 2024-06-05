@@ -14,4 +14,4 @@ order: 4
 - HackTheBox Prolabs: Dante
 
 ## Badges
-![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="250" height="250" } ![ewapt.png](assets/img/certs/ewaptx.png){: width="200" height="200"} ![ejpt.png](assets/img/certs/ejpt.png){: width="200" height="200"} 
+![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="250" height="250" .left} ![ewapt.png](assets/img/certs/ewaptx.png){: width="200" height="200" .left} ![ejpt.png](assets/img/certs/ejpt.png){: width="200" height="200" .left} 
