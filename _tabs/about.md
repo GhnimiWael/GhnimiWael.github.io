@@ -10,12 +10,7 @@ order: 4
 ## Certifications
 eWAPTx - Web application Penetration Tester eXtreme
 eJPT - eLearnsecurity Junior Penetration Testing
-
-<p float="left">
-  <img src="assets/img/certs/ejpt.png" width="100" />
-  <img src="assets/img/certs/ejpt.png" width="100" /> 
-  <img src="assets/img/certs/ejpt.png" width="100" />
-</p>
+![alt-text-1](assets/img/certs/ejpt.png) ![alt-text-2](assets/img/certs/ejpt.png)
 
 ## Badges
 ![pro-lab-dante.svg](assets/img/ic-dante-overview.svg)
