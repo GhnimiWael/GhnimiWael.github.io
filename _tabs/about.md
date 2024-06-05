@@ -5,7 +5,7 @@ order: 4
 ---
 # Wael Ghnimi aka 0xW43L
 
-> Cyber Threat Intelligence Analyst | X-Red-Teamer | X-Blue-Teamer
+> Cyber Threat Intelligence Analyst, X-Red-Teamer, X-Blue-Teamer
 {: .prompt-tip }
 
 ## Certifications
