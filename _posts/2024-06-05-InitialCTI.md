@@ -6,16 +6,11 @@ categories:
 tags:
 - CTI
 date: 2024-06-05 20:00 +0100
-description: Welcome to the GitHub repository for Pen & Keyboard - The CTI's Handbook"! This repository complements the GitBook by providing code, resources, and additional materials to enhance your understanding of Cyber Threat Intelligence (CTI).
+description: Welcome to Pen & Keyboard - The CTI's Handbook"! This is a comprehensive guide to mastering the art and science of CTI (Cyber  Threat Intelligence). Whether you're a seasoned cybersecurity professional, a red teamer, or an aspiring CTI analyst, this handbook is designed to empower you with the knowledge and skills you need to navigate the complex world of cyber threats.
 image: assets/img/062024/05062024/initial_cti.jpeg
 ---
 
-## About the Handbook
-"Pen & Keyboard: The CTI's Handbook" is a comprehensive guide to mastering the art and science of CTI. Whether you're a seasoned cybersecurity professional, a red teamer, or an aspiring CTI analyst, this handbook is designed to empower you with the knowledge and skills you need to navigate the complex world of cyber threats.
-
-The Link of the main CTI Handbook: https://w43l.gitbook.io/ctihandboook/
-## Repository Contents
-
+## Contents
 This repository contains supplementary materials that align with the content presented in the <a href="https://w43l.gitbook.io/ctihandboook/">Pen & Keyboard: The CTI's Handbook"</a>. 
 Here's an overview of what you'll find here:
 
