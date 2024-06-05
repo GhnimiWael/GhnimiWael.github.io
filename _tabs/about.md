@@ -18,9 +18,9 @@ order: 4
 ### Certifications InRelation W/ University
 - Fortinet  - NSE 2 Network Security Associate
 - Fortinet  - NSE 1 Network Security Associate
-- Microsoft - Microsoft Technology Associate: Programming Using HTML and CSS
 - Microsoft - Microsoft Technology Associate: Security Fundamentals (MTA)
 - Microsoft - Microsoft Technology Associate: Networking Fundamentals (MTA)
+- Microsoft - Microsoft Technology Associate: Programming Using HTML and CSS
 - Microsoft - Microsoft Office Specialist: Microsoft Powerpoint® 2016
 - Microsoft - Microsoft Office Specialist: Microsoft Word 2016
 
