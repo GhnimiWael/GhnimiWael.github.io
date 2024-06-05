@@ -24,5 +24,4 @@ order: 4
 - Microsoft - Microsoft Office Specialist: Microsoft Powerpoint® 2016
 - Microsoft - Microsoft Office Specialist: Microsoft Word 2016
 
-## Badges
-![nse2.png](assets/img/certs/NSE2.png){: width="100" height="100" .left} ![nse1.png](assets/img/certs/NSE1.png){: width="100" height="100" .left} ![mta_security.png](assets/img/certs/mta_security.png){: width="100" height="100" .left} ![mta_networks.png](assets/img/certs/mta_networks.png){: width="100" height="100" .left} ![mta_html_css.png](assets/img/certs/mta_html_css.png){: width="100" height="100" .left} 
+![nse2.png](assets/img/certs/NSE2.png){: width="120" height="120" .left} ![nse1.png](assets/img/certs/NSE1.png){: width="120" height="120" .left} ![mta_security.png](assets/img/certs/mta_security.png){: width="120" height="120" .left} ![mta_networks.png](assets/img/certs/mta_networks.png){: width="120" height="120" .left} ![mta_html_css.png](assets/img/certs/mta_html_css.png){: width="120" height="120" .left} 
