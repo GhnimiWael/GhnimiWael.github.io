@@ -3,7 +3,8 @@
 icon: fas fa-info-circle
 order: 4
 ---
-# Wael Ghnimi aka 0xWael | Cyber Threat Intelligence Analyst | X Red-Teamer | X Blue-Teamer
+# Wael Ghnimi aka 0xWael
+> Cyber Threat Intelligence Analyst | X Red-Teamer | X Blue-Teamer
 
 ## Certifications
 
