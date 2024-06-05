@@ -13,7 +13,7 @@ order: 4
 - eJPT - eLearnsecurity Junior Penetration Testing
 - HackTheBox Prolabs: Dante
 
-### Certifications W/ University Related
+### Certifications InRelation W/ University
 - Fortinet  - NSE 2 Network Security Associate
 - Fortinet  - NSE 1 Network Security Associate
 - Microsoft - Microsoft Technology Associate: Programming Using HTML and CSS
