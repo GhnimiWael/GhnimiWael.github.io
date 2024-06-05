@@ -6,12 +6,12 @@ categories:
 tags:
 - CTI
 date: 2024-06-05 20:00 +0100
-description: Welcome to Pen & Keyboard - The CTI's Handbook ! A comprehensive guide to mastering the art and science of CTI (Cyber Threat Intelligence). 
+description: A comprehensive guide to mastering the art and science of CTI (Cyber Threat Intelligence). 
 image: assets/img/062024/05062024/initial_cti.jpeg
 ---
 
 ## Summary
-Whether you're a seasoned cybersecurity professional, a red teamer, or an aspiring CTI analyst, this handbook is designed to empower you with the knowledge and skills you need to navigate the complex world of cyber threats.
+Welcome to Pen & Keyboard - The CTI's Handbook ! Whether you're a seasoned cybersecurity professional, a red teamer, or an aspiring CTI analyst, this handbook is designed to empower you with the knowledge and skills you need to navigate the complex world of cyber threats.
 
 ## Contents
 This repository contains supplementary materials that align with the content presented in the <a href="https://w43l.gitbook.io/ctihandboook/">Pen & Keyboard: The CTI's Handbook"</a>. 
