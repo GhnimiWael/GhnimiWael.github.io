@@ -11,7 +11,7 @@ order: 4
 - eWAPTx - Web application Penetration Tester eXtreme
 - eJPT - eLearnsecurity Junior Penetration Testing
 
-![ejpt.png](assets/img/certs/ejpt.png){: width="200" height="200" .left} ![ewapt.png](assets/img/certs/ewaptx.png){: width="200" height="200" .left}
+![ewapt.png](assets/img/certs/ewaptx.png){: width="200" height="200" .left} ![ejpt.png](assets/img/certs/ejpt.png){: width="200" height="200" .left}
 
 
 ## Badges
