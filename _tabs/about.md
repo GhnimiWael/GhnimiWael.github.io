@@ -14,6 +14,7 @@ order: 4
 ![ewapt.png](assets/img/certs/ewaptx.png){: width="200" height="200" .left} ![ejpt.png](assets/img/certs/ejpt.png){: width="200" height="200" .left}
 
 
+
 ## Badges
 ![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="400" height="400" }
 
