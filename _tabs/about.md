@@ -11,6 +11,7 @@ order: 4
 ## Certifications
 - eWAPTx - Web application Penetration Tester eXtreme
 - eJPT - eLearnsecurity Junior Penetration Testing
+- HackTheBox Prolabs: Dante
 
 ![ewapt.png](assets/img/certs/ewaptx.png){: width="200" height="200"} ![ejpt.png](assets/img/certs/ejpt.png){: width="200" height="200"} 
 
