@@ -6,6 +6,7 @@ order: 4
 # Wael Ghnimi aka 0xW43L
 
 > Cyber Threat Intelligence Analyst | X-Red-Teamer | X-Blue-Teamer
+{: .prompt-tip }
 
 ## Certifications
 - eWAPTx - Web application Penetration Tester eXtreme
@@ -16,6 +17,3 @@ order: 4
 
 ## Badges
 ![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="400" height="400" }
-
-
-{: .prompt-tip }
