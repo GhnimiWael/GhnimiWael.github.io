@@ -13,8 +13,5 @@ order: 4
 - eJPT - eLearnsecurity Junior Penetration Testing
 - HackTheBox Prolabs: Dante
 
-![ewapt.png](assets/img/certs/ewaptx.png){: width="200" height="200"} ![ejpt.png](assets/img/certs/ejpt.png){: width="200" height="200"} 
-
-
 ## Badges
-![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="400" height="400" }
+![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="200" height="200" } ![ewapt.png](assets/img/certs/ewaptx.png){: width="200" height="200"} ![ejpt.png](assets/img/certs/ejpt.png){: width="200" height="200"} 
