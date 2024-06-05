@@ -6,7 +6,7 @@ categories:
 tags:
 - CTI
 date: 2024-06-05 20:00 +0100
-description: Welcome to Pen & Keyboard - The CTI's Handbook ! A comprehensive guide to mastering the art and science of CTI. 
+description: Welcome to Pen & Keyboard - The CTI's Handbook ! A comprehensive guide to mastering the art and science of CTI (Cyber Threat Intelligence). 
 image: assets/img/062024/05062024/initial_cti.jpeg
 ---
 
