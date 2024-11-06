@@ -19,7 +19,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - arcX - CYBER THREAT INTELLIGENCE 101
 - HackTheBox Prolabs: Dante
 
-![OSEP.svg](assets/img/certs/OSEP.svg){: width="120" height="120" .left}  ![ewapt.png](assets/img/certs/ewaptx.png){: width="130" height="130" .left} ![ejpt.png](assets/img/certs/ejpt.png){: width="130" height="130" .left} ![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="150" height="120" .left} ![CTI101.webp](assets/img/certs/CTI101.webp){: width="120" height="120" .normal}
+![OSEP.svg](assets/img/certs/OSEP.svg){: width="120" height="120" .left}  ![ewapt.png](assets/img/certs/ewaptx.png){: width="150" height="150" .left} ![ejpt.png](assets/img/certs/ejpt.png){: width="150" height="150" .left} ![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="150" height="120" .left} ![CTI101.webp](assets/img/certs/CTI101.webp){: width="120" height="120" .normal}
 
 ### Certifications InRelation W/ University
 - Fortinet  - NSE 2 Network Security Associate
