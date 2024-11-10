@@ -11,7 +11,7 @@ tags:
 - Offsec
 - OSEP
 - PEN300
-date: 2024-11-10 23:59 +0100
+date: 2024-11-10 20:00 +0100
 description: A review of OSEP (PEN300) Offsec Certification.
 image: assets/img/certs/osep_b.png
 ---
