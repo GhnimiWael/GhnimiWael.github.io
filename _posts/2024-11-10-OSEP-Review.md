@@ -63,10 +63,10 @@ The exam provides 47 hours and 45 minutes, which is sufficient to achieve the re
 I completed the core exam objective (finding the `secret.txt`) within 12 hours. After a 4-hour rest, I discovered an additional flag, bringing my total to 10 flags and the secret.txt. I then immediately started the reporting process, ensuring I had a solid record of all actions and findings.
 
 # Resources
-I’ve created a GitHub repository OSEP_Prep (https://github.com/GhnimiWael/OSEP_Prep) to share valuable `EXTERNAL` resources and links for those preparing for OffSec’s OSEP (PEN-300) certification. This repository includes curated content, tools, and references that I found useful during my study, aiming to help others efficiently navigate the vast amount of information needed for the exam.
+I’ve created a GitHub repository OSEP_Prep (<https://github.com/GhnimiWael/OSEP_Prep>) to share valuable `EXTERNAL` resources and links for those preparing for OffSec’s OSEP (PEN-300) certification. This repository includes curated content, tools, and references that I found useful during my study, aiming to help others efficiently navigate the vast amount of information needed for the exam.
 ![osep_rep](/assets/img/certs/osep/osep_repo.png)
 _https://github.com/GhnimiWael/OSEP_Prep_
-- Repository Link: https://github.com/GhnimiWael/OSEP_Prep
+- Repository Link: <https://github.com/GhnimiWael/OSEP_Prep>
 
 # Conclusion
 The Advanced Evasion Techniques and Breaching Defenses (PEN-300) course provides an exceptional depth of technical content across most topics, making it a valuable resource for advanced penetration testing. However, the course could benefit from an update, as new vulnerabilities and attack techniques have surfaced since its last revision, and some of the methods it covers are now less effective against modern security configurations.
@@ -80,4 +80,4 @@ A heartfelt thank you to my colleagues, friends, and family for their guidance a
 ![osep_cert](/assets/img/certs/osep/osep_cert.png)
 _https://www.credential.net/0799a180-0c50-474a-b048-bd7762b0db61_
 
-- Credential: https://www.credential.net/0799a180-0c50-474a-b048-bd7762b0db61
+- Credential: <https://www.credential.net/0799a180-0c50-474a-b048-bd7762b0db61>
