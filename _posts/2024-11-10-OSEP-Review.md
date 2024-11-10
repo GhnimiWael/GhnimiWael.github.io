@@ -5,12 +5,14 @@ categories:
 - Red Team
 - Pentest
 - Offsec
+- Certification
 tags:
 - Red Team
 - Pentest
 - Offsec
 - OSEP
 - PEN300
+- Certification
 date: 2024-11-10 20:00 +0100
 description: A review of OSEP (PE-N300) Offsec Certification.
 image: assets/img/certs/osep_b.png
