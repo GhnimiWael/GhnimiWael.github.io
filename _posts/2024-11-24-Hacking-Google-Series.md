@@ -11,7 +11,7 @@ tags:
 - Threat Intelligence
 - CTI
 - SOC
-date: 2024-11-24 16:00 +0100
+date: 2024-11-24 12:00 +0100
 description: A Review of the Hacking Google YouTube Series.
 image: assets/img/series/google_hacking.png
 ---
@@ -19,7 +19,7 @@ image: assets/img/series/google_hacking.png
 # Review of the Hacking Google YouTube Series
 Google, synonymous with innovation and technology, provides an intriguing look behind the scenes with its Hacking Google YouTube series. This series is a masterpiece for cybersecurity enthusiasts, offering a rare glimpse into how Google secures its infrastructure, protects user data, and addresses modern cyber threats.
 
-# Content Overview
+# Series Content Overview
 The series dives into the work of Google's Threat Analysis Group (TAG), Red Team, and other security units. Each episode focuses on a specific aspect of Google's cybersecurity efforts, such as combating phishing campaigns, mitigating zero-day vulnerabilities, or defending against nation-state actors. The storytelling is complemented by interviews with key experts, animations, and real-world examples, making complex topics accessible to a wide audience.
 
 # Strengths
