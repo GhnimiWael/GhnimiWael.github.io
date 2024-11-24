@@ -11,7 +11,7 @@ tags:
 - Threat Intelligence
 - CTI
 - SOC
-date: 2024-11-24 17:00 +0100
+date: 2024-11-24 16:00 +0100
 description: A Review of the Hacking Google YouTube Series.
 image: assets/img/series/google_hacking.png
 ---
