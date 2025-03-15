@@ -2,10 +2,7 @@
 layout: post
 title: OSEP (PEN-300) Review - OffSec Experienced Penetration Tester
 categories:
-- Red Team
-- Pentest
-- Offsec
-- Certification
+- Red Teaming
 tags:
 - Red Team
 - Pentest
