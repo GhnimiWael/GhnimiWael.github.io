@@ -16,10 +16,14 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - OSEP (PEN-300) - Experienced Penetration Tester (Advanced Evasion Techniques and Breaching Defenses)
 - eWAPTx - Web application Penetration Tester eXtreme
 - eJPT - eLearnsecurity Junior Penetration Testing
-- arcX - CYBER THREAT INTELLIGENCE 101
+- arcX - Cyber Threat intelligence Analyst Foundation (101)
+- ICTTF - Ransomware Uncovered - Specialist Certificate
 - HackTheBox Prolabs: Dante
 
-![OSEP.svg](assets/img/certs/OSEP.svg){: width="120" height="120" .left}  ![ewapt.png](assets/img/certs/ewaptx.png){: width="160" height="160" .left} ![ejpt.png](assets/img/certs/ejpt.png){: width="160" height="160" .left}  ![CTI101.webp](assets/img/certs/CTI101.webp){: width="120" height="120" .normal} ![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="150" height="120" .left}
+![OSEP.svg](assets/img/certs/OSEP.svg){: width="120" height="120" .left}  ![ewapt.png](assets/img/certs/ewaptx.png){: width="160" height="160" .left} ![ejpt.png](assets/img/certs/ejpt.png){: width="160" height="160" .left} 
+
+
+![CTI101.webp](assets/img/certs/CTI101.webp){: width="120" height="120" .normal} ![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="200" height="200" .normal} ![icttf-logo](assets/img/certs/icttf-logo.png){: width="200" height="200" .normal}
 
 ### Certifications InRelation W/ University
 - Fortinet  - NSE 2 Network Security Associate
