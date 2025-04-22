@@ -208,7 +208,7 @@ Type 'help' to get help.
 └─PS> ./UserInfo.exe find -first fakeUser
 [-] Exception: No Such Object
 ```
-![alt text](image.png)
+
 Then, We’ll capture the authentication in the LDAP stream as the follow
 ![wireshark_1](/assets/img/htb/support/wireshark_1.png)
 
