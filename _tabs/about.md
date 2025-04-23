@@ -25,6 +25,15 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 
 ![CTI101.webp](assets/img/certs/CTI101.webp){: width="120" height="120" .normal} ![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="200" height="200" .normal} ![icttf-logo](assets/img/certs/icttf-logo.png){: width="200" height="200" .normal}
 
+---
+### Developed Tools
+- [**LDAPHunter - LDAP Enumeration Tool**](https://github.com/GhnimiWael/LDAPHunter): A Python tool automates LDAP enumeration for penetration testers, extracting users, groups, organizational units (OUs), password policies, and other critical Active Directory/LDAP information.
+
+![ldaphunter.png](assets/img/dev_tools/ldaphunter.png){: width="250" height="250" .normal}
+
+- TBD ...
+
+---
 ### Certifications InRelation W/ University
 - Fortinet  - NSE 2 Network Security Associate
 - Fortinet  - NSE 1 Network Security Associate
@@ -35,3 +44,6 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - Microsoft - Microsoft Office Specialist: Microsoft Word 2016
 
 ![nse2.png](assets/img/certs/NSE2.png){: width="120" height="120" .left} ![nse1.png](assets/img/certs/NSE1.png){: width="120" height="120" .left} ![mta_security.png](assets/img/certs/mta_security.png){: width="120" height="120" .left} ![mta_networks.png](assets/img/certs/mta_networks.png){: width="120" height="120" .left} ![mta_html_css.png](assets/img/certs/mta_html_css.png){: width="120" height="120" .left} 
+
+
+
