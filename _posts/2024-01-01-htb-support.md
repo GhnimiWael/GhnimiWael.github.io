@@ -7,7 +7,7 @@ tags:
 - Red Team
 - Pentest
 - HTB
-date: 2024-01-01 00:00 +0100
+date: 2024-01-01 01:00 +0100
 description: Support is an easy-difficulty Windows machine on Hack The Box (HTB) that focuses on SMB misconfigurations, LDAP credential extraction, and Kerberos-based privilege escalation.
 image: assets/img/htb/support/support.jpg
 ---
