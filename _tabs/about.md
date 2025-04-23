@@ -34,6 +34,10 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - TBD ...
 
 ---
+### Trainings & Courses
+
+
+---
 ### Certifications InRelation W/ University
 - Fortinet  - NSE 2 Network Security Associate
 - Fortinet  - NSE 1 Network Security Associate
