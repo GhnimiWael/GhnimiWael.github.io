@@ -165,7 +165,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**Radare2**](https://rada.re/n/) 
 - [**gdb**](https://www.gnu.org/software/gdb/)
 - [**Binary Ninja**](https://binary.ninja/)
-- [**OllyDbg**](http://www.ollydbg.de/)
+- [**OllyDbg**](https://www.ollydbg.de/)
 - [**Immunity Debugger**](https://www.immunityinc.com/products/debugger)
 - [**x64dbg**](https://x64dbg.com/)
 - [**HxD**](https://mh-nexus.de/en/programs.php)
