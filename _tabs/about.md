@@ -83,24 +83,24 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 
 #### Cyber Threat Intelligence (CTI)
 ##### Books
-- [**Uncertain Shield: The U.S. Intelligence System in the Throes of Reform**]
-- [**Deception: The Untold Story of East-West Espionage Today**]
-- [**Enemies of Intelligence: Knowledge and Power in American National Security**] 
-- [**The Art of Intelligence**] 
-- [**Spurious Correlations**] 
-- [**Red Team Development and Operations: A Practical Guide**] 
-- [**The US Intelligence Community**] 
-- [**Active Measures: The Secret History of Disinformation and Political Warfare**] 
-- [**Intelligence-Driven Incident Response: Outwitting the Adversary**] 
-- [**Structured Analytic Techniques for Intelligence Analysis**] 
-- [**Psychology of Intelligence Analysis**] 
-- [**Threat Modeling: Designing for Security**] 
-- [**Intelligence: From Secrets to Policy 8th Edition**] 
-- [**Incident Response & Computer Forensics, Third Edition**] 
-- [**Effective Threat Intelligence: Building and Running an Intel Team for Your Organization**] 
-- [**Visual Threat Intelligence: An Illustrated Guide For Threat Researcher**] 
-- [**Permanent Record**] 
-- [**The Art of Cyberwarfare: An Investigator's Guide to Espionage, Ransomware, and Organized Cybercrime**] 
+- **Uncertain Shield: The U.S. Intelligence System in the Throes of Reform**
+- **Deception: The Untold Story of East-West Espionage Today**
+- **Enemies of Intelligence: Knowledge and Power in American National Security**
+- **The Art of Intelligence**
+- **Spurious Correlations**
+- **Red Team Development and Operations: A Practical Guide**
+- **The US Intelligence Community**
+- **Active Measures: The Secret History of Disinformation and Political Warfare**
+- **Intelligence-Driven Incident Response: Outwitting the Adversary**
+- **Structured Analytic Techniques for Intelligence Analysis**
+- **Psychology of Intelligence Analysis**
+- **Threat Modeling: Designing for Security**
+- **Intelligence: From Secrets to Policy 8th Edition**
+- **Incident Response & Computer Forensics, Third Edition**
+- **Effective Threat Intelligence: Building and Running an Intel Team for Your Organization**
+- **Visual Threat Intelligence: An Illustrated Guide For Threat Researcher**
+- **Permanent Record**] 
+- **The Art of Cyberwarfare: An Investigator's Guide to Espionage, Ransomware, and Organized Cybercrime**
 
 ##### Tools
 - [**MISP**](https://www.misp-project.org/)
