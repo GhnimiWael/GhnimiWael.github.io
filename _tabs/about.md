@@ -50,6 +50,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 ![nse2.png](assets/img/certs/NSE2.png){: width="120" height="120" .left} ![nse1.png](assets/img/certs/NSE1.png){: width="120" height="120" .left} ![mta_security.png](assets/img/certs/mta_security.png){: width="120" height="120" .left} ![mta_networks.png](assets/img/certs/mta_networks.png){: width="120" height="120" .left} ![mta_html_css.png](assets/img/certs/mta_html_css.png){: width="120" height="120" .left} 
 
 ---
+
 ### Trainings, Courses & Books
 
 #### Malware Developement
