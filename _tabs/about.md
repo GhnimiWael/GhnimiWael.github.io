@@ -114,24 +114,24 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 
 #### Cyber Threat Intelligence (CTI)
 ##### Books
-- **Uncertain Shield: The U.S. Intelligence System in the Throes of Reform**
-- **Deception: The Untold Story of East-West Espionage Today**
-- **Enemies of Intelligence: Knowledge and Power in American National Security**
-- **The Art of Intelligence**
-- **Spurious Correlations**
-- **Red Team Development and Operations: A Practical Guide**
-- **The US Intelligence Community**
-- **Active Measures: The Secret History of Disinformation and Political Warfare**
-- **Intelligence-Driven Incident Response: Outwitting the Adversary**
-- **Structured Analytic Techniques for Intelligence Analysis**
-- **Psychology of Intelligence Analysis**
-- **Threat Modeling: Designing for Security**
-- **Intelligence: From Secrets to Policy 8th Edition**
-- **Incident Response & Computer Forensics, Third Edition**
-- **Effective Threat Intelligence: Building and Running an Intel Team for Your Organization**
-- **Visual Threat Intelligence: An Illustrated Guide For Threat Researcher**
-- **Permanent Record**] 
-- **The Art of Cyberwarfare: An Investigator's Guide to Espionage, Ransomware, and Organized Cybercrime**
+- Uncertain Shield: The U.S. Intelligence System in the Throes of Reform - by Richard A. Posner (Hoover Studies in Politics, Economics, and Society) 
+- Deception: The Untold Story of East-West Espionage Today - by Edward Lucas 
+- Enemies of Intelligence: Knowledge and Power in American National Security - by Richard K. Betts 
+- The Art of Intelligence - by Henry A. Crumpton 
+- Spurious Correlations - by Tyler Vigen 
+- Red Team Development and Operations: A Practical Guide - by Joe Vest 
+- The US Intelligence Community - by Jeffrey T. Richelson 
+- Active Measures: The Secret History of Disinformation and Political Warfare - by Thomas Rid 
+- Intelligence-Driven Incident Response: Outwitting the Adversary - by Scott J. Roberts 
+- Structured Analytic Techniques for Intelligence Analysis - by Richards J. Heuer Jr. 
+- Psychology of Intelligence Analysis - by Richards J. Heuer Jr. 
+- Threat Modeling: Designing for Security - by Adam Shostack 
+- Intelligence: From Secrets to Policy 8th Edition - by Mark Lowenthal 
+- Incident Response & Computer Forensics, Third Edition - by Jason T. Luttgens 
+- Effective Threat Intelligence: Building and Running an Intel Team for Your Organization - by James Dietle 
+- Visual Threat Intelligence: An Illustrated Guide For Threat Researcher - by Thomas Roccia 
+- Permanent Record - by Edward Snowden 
+- The Art of Cyberwarfare: An Investigator's Guide to Espionage, Ransomware, and Organized Cybercrime - by Jon DiMaggio 
 
 ##### Tools
 - [**MISP**](https://www.misp-project.org/)
