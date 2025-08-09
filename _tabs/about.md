@@ -38,20 +38,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - TBD ...
 
 ---
-### Trainings, Courses & Books
-
-#### Malware Developement
-- [**RED TEAM Operator: Malware Development Essentials Course - sektor7**](https://institute.sektor7.net/red-team-operator-malware-development-essentials)
-
-#### Reverse Engineering (RE) & Malware Analysis (MA)
-- [**Debugger 1001: Visual Studio - OST2**](https://ost2.fyi/Dbg1001)
-- [**Architecture 1001: x86-64 Assembly - OST2**](https://ost2.fyi/Arch1001)
-
-#### Cyber Threat Intelligence (CTI)
-- [**GCIA - GIAC Cyber Threat Intelligence**](https://www.giac.org/certification/cyber-threat-intelligence-gcia)
-- [**Cyber Threat Intelligence 101 - ArcX**](https://www.arcx.org/cyber-threat-intelligence-101)
-- [**Cyber Threat Intelligence Practitioner - ArcX**](https://www.arcx.org/cyber-threat-intelligence-practitioner)
-- [**Advanced Cyber Threat Intelligence Analyst - ArcX**](https://www.arcx.org/advanced-cyber-threat-intelligence-analyst-201)
+### Trainings, Courses, Books, Used OS, Tools, Solutions & Platforms
 
 #### Programming
 
@@ -64,12 +51,16 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
     - [**Learn Memory Management in C - boot.dev**](https://www.boot.dev/courses/learn-memory-management-c)
 
 ---
-### Used OS, Tools, Solutions & Platforms
-#### EDRs (Detection and Response)
-- [**CrowdStrike**](https://www.crowdstrike.com/en-us/)
-- [**SentinelOne**](https://www.sentinelone.com/)
+#### Cybersec-Beginner (Starting Point ...)
+##### Books
+- [**How Cybersecurity Really Works: A Hands-On Guide for Total Beginners by Sam Grubb**](https://www.goodreads.com/author/show/8146196.Sam_Grubb)
 
+---
 #### Reverse Engineering (RE) & Malware Analysis (MA)
+##### Courses
+- [**Debugger 1001: Visual Studio - OST2**](https://ost2.fyi/Dbg1001)
+- [**Architecture 1001: x86-64 Assembly - OST2**](https://ost2.fyi/Arch1001)
+
 ##### Tools
 - [**IDA Pro**](https://hex-rays.com/ida-pro)
 - [**Ghidra**](https://ghidra-sre.org/)
@@ -112,7 +103,25 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**Malshare**](https://malshare.com/)
 - [**VX Underground**](https://vx-underground.org/)
 
+---
+#### Malware & Exploit Development
+##### Books
+- TBD ...
+
+##### Courses
+- [**Windows Internals Courses - Pavel Yosifovich**](https://trainsec.net/courses/windows-internals-bundle/)
+- [**RED TEAM Operator: Malware Development Essentials Course - sektor7**](https://institute.sektor7.net/red-team-operator-malware-development-essentials)
+
+##### Tools
+- [**Visual Studio**](https://visualstudio.microsoft.com/)
+---
 #### Cyber Threat Intelligence (CTI)
+##### Courses
+- [**GCIA - GIAC Cyber Threat Intelligence**](https://www.giac.org/certification/cyber-threat-intelligence-gcia)
+- [**Cyber Threat Intelligence 101 - ArcX**](https://www.arcx.org/cyber-threat-intelligence-101)
+- [**Cyber Threat Intelligence Practitioner - ArcX**](https://www.arcx.org/cyber-threat-intelligence-practitioner)
+- [**Advanced Cyber Threat Intelligence Analyst - ArcX**](https://www.arcx.org/advanced-cyber-threat-intelligence-analyst-201)
+
 ##### Books
 - Uncertain Shield: The U.S. Intelligence System in the Throes of Reform - by Richard A. Posner (Hoover Studies in Politics, Economics, and Society) 
 - Deception: The Untold Story of East-West Espionage Today - by Edward Lucas 
@@ -188,15 +197,17 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**OpenCTI**](https://www.opencti.io/)
 - [**MITRE ATT&CK**](https://attack.mitre.org/)
 
-
-#### Malware Development
-- [**Visual Studio**](https://visualstudio.microsoft.com/)
-
+---
 #### Vulnerability Assessment & Management
 - [**Qualys**](https://www.qualys.com/)
 - [**Tenable.io (Nessus)**](https://www.tenable.com/products/tenable-io)
 
+---
 #### Penetration Testing
+##### Books
+- [**Penetration Testing: A Hands-On Introduction to Hacking by Georgia Weidman**](https://www.goodreads.com/book/show/18771903-penetration-testing)
+
+##### Tools 
 - [**Cobalt Strike**](https://www.cobaltstrike.com/)
 - [**Burp Suite Pro**](https://portswigger.net/burp)
 - [**CrackmapExec**](https://github.com/byt3bl33d3r/CrackMapExec)
@@ -211,6 +222,11 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**Burp Suite Community Edition**](https://portswigger.net/burp/community)
 - [**OWASP ZAP**](https://www.zaproxy.org/)
 - [**SQLMap**](https://sqlmap.org/)
+
+---
+#### EDRs (Detection and Response)
+- [**CrowdStrike**](https://www.crowdstrike.com/en-us/)
+- [**SentinelOne**](https://www.sentinelone.com/)
 
 #### Operating Systems
 - [**Linux**](https://www.linux.org/)
