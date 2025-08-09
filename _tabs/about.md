@@ -114,6 +114,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 
 ##### Tools
 - [**Visual Studio**](https://visualstudio.microsoft.com/)
+
 ---
 #### Cyber Threat Intelligence (CTI)
 ##### Courses
