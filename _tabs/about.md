@@ -45,8 +45,10 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 > "The only way to learn a new programming language is by writing programs in it" - Brian W. Kernighan 
 {: .prompt-tip }
 
-1. C Programming
+##### 1. C Programming
+- Books
     - [**The C Programming Language" by Brian W. Kernighan and Dennis M. Ritchie**](https://www.cc4e.com/book/)
+- Courses
     - [**C Programming for Everybody Specialization - Coursera**](https://www.coursera.org/specializations/c-programming-for-everybody?action=enroll)  
     - [**Learn Memory Management in C - boot.dev**](https://www.boot.dev/courses/learn-memory-management-c)
 
