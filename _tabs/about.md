@@ -6,9 +6,8 @@ order: 4
 # Wael Ghnimi aka 0xW43L
 ## 👋 About Me
 
-> Senior Cyber Threat Intelligence Analyst | Former Red Teamer & Blue Teamer | Offensive & Defensive Security Expert  
+> Senior Cyber Threat Intelligence Analyst || Former Red Teamer & Blue Teamer || Offensive & Defensive Security Expert  
 {: .prompt-tip }
-
 
 
 With a strong foundation in both **offensive security (Red Team)** and **defensive operations (Blue Team/SOC)**, I bring a **dual perspective** to the **Cyber Threat Intelligence (CTI)**. My career is driven by a passion for uncovering and mitigating threats, blending deep technical expertise with strategic intelligence analysis to safeguard organizations against advanced cyber adversaries.
