@@ -6,7 +6,7 @@ order: 4
 # Wael Ghnimi aka 0xW43L
 ## 👋 About Me
 
-> Senior Cyber Threat Intelligence Analyst || Former Red Teamer & Blue Teamer || Offensive & Defensive Security Expert  
+> Senior Cyber Threat Intelligence Analyst \| Former Red Teamer & Blue Teamer \| Offensive & Defensive Security Expert  
 {: .prompt-tip }
 
 
