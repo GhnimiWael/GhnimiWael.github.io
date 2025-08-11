@@ -82,7 +82,6 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**Detect it Easy (DiE)**](https://github.com/horsicq/DIE-engine/releases)
 - [**PE Studio**](https://www.winitor.com/download)
 - [**DNSpyEx**](https://github.com/dnSpyEx/dnSpy/releases)
-- [**Sysinternals Suite**](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
 - [**System Informer**](https://systeminformer.sourceforge.io/)
 - [**Process Hacker**](https://processhacker.sourceforge.io/)
 - [**PE Explorer**](https://github.com/zodiacon/PEExplorerV2)
