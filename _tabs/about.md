@@ -48,6 +48,8 @@ I thrive on complex challenges, whether it’s **tracking sophisticated threat a
 ---
 ## 📚 Technical Expertise & Training (Learning, Research & Knowledge Base)
 
+This section catalogs the books, courses, tools, and platforms I use to sharpen my skills and stay at the forefront of the field.
+
 ### Programming
 
 > "The only way to learn a new programming language is by writing programs in it" - Brian W. Kernighan 
