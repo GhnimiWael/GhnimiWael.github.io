@@ -79,14 +79,17 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**Immunity Debugger**](https://www.immunityinc.com/products/debugger)
 - [**x64dbg**](https://x64dbg.com/)
 - [**HxD**](https://mh-nexus.de/en/programs.php)
-- [**PE Bear**](https://github.com/hasherezade/pe-bear/releases)
-- [**Resource Hacker**](https://www.angusj.com/resourcehacker/)
 - [**Detect it Easy (DiE)**](https://github.com/horsicq/DIE-engine/releases)
 - [**PE Studio**](https://www.winitor.com/download)
 - [**DNSpyEx**](https://github.com/dnSpyEx/dnSpy/releases)
 - [**Sysinternals Suite**](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
 - [**System Informer**](https://systeminformer.sourceforge.io/)
 - [**Process Hacker**](https://processhacker.sourceforge.io/)
+- [**PE Explorer**](https://github.com/zodiacon/PEExplorerV2)
+- [**PE Bear**](https://github.com/hasherezade/pe-bear/releases)
+- [**Resource Hacker**](https://www.angusj.com/resourcehacker/)
+- [**Process Explorer**](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+
 
 ##### Services
 - [**CAPEv2**](https://github.com/kevoreilly/CAPEv2)
