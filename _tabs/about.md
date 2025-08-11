@@ -5,14 +5,16 @@ order: 4
 ---
 # Wael Ghnimi aka 0xW43L
 
-> Cyber Threat Intelligence Analyst, X-Red-Teamer, X-Blue-Teamer
+> Senior Cyber Threat Intelligence Analyst | Former Red Teamer & Blue Teamer | Offensive & Defensive Security Expert  
 {: .prompt-tip }
 
-As a dedicated Senior Cyber Threat Intelligence Analyst with a robust background in red teaming and SOC operations, I bring a unique blend of offensive and defensive cybersecurity expertise to the table. 
 
-My journey in cybersecurity is driven by a passion for uncovering vulnerabilities and fortifying defenses, ensuring robust protection against evolving threats. With a keen eye for detail and a commitment to continuous learning, I am poised to contribute to and collaborate with forward-thinking teams, enhancing their security posture and resilience.
+With a strong foundation in both **offensive security (Red Team)** and **defensive operations (Blue Team/SOC)**, I bring a **dual perspective** to the **Cyber Threat Intelligence (CTI)**. My career is driven by a passion for uncovering and mitigating threats, blending deep technical expertise with strategic intelligence analysis to safeguard organizations against advanced cyber adversaries.
 
-## Earned Certifications
+I thrive on complex challenges, whether it’s **tracking sophisticated threat actors**, **developing custom security tools**, or **conducting deep-dive investigations** into evolving attack vectors. I believe in **continuous learning, research, and collaboration** to stay ahead in the rapidly changing cyber threat landscape.
+
+
+## 🎓 Certifications & Professional Achievements
 - OSEP (PEN-300) - Experienced Penetration Tester (Advanced Evasion Techniques and Breaching Defenses)
 - eWAPTx - Web application Penetration Tester eXtreme
 - eJPT - eLearnsecurity Junior Penetration Testing
@@ -26,7 +28,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 ![CTI101.webp](assets/img/certs/CTI101.webp){: width="120" height="120" .normal} ![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="200" height="200" .normal} ![icttf-logo](assets/img/certs/icttf-logo.png){: width="200" height="200" .normal}
 
 ---
-### Developed Projects, Research, Tools & Solutions
+## 🛠 Research, Projects & Tool Development
 #### Penetration Testing & Red Teaming
 - [**LDAPHunter - LDAP Enumeration Tool**](https://github.com/GhnimiWael/LDAPHunter): A Python tool automates LDAP enumeration for penetration testers, extracting users, groups, organizational units (OUs), password policies, and other critical Active Directory/LDAP information.
 
@@ -44,14 +46,14 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - TBD ...
 
 ---
-### Technical Expertise & Training
+## 📚 Technical Expertise & Training (Learning, Research & Knowledge Base)
 
-#### Programming
+### Programming
 
 > "The only way to learn a new programming language is by writing programs in it" - Brian W. Kernighan 
 {: .prompt-tip }
 
-##### 1. C Programming
+#### 1. C Programming
 - Books
     - [**The C Programming Language" by Brian W. Kernighan and Dennis M. Ritchie**](https://www.cc4e.com/book/)
 - Courses
@@ -59,17 +61,17 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
     - [**Learn Memory Management in C - boot.dev**](https://www.boot.dev/courses/learn-memory-management-c)
 
 ---
-#### Cybersec-Beginner (Starting Point ...)
-##### Books
+### Cybersec-Beginner (Starting Point ...)
+#### Books
 - [**How Cybersecurity Really Works: A Hands-On Guide for Total Beginners by Sam Grubb**](https://www.goodreads.com/author/show/8146196.Sam_Grubb)
 
 ---
-#### Reverse Engineering (RE) & Malware Analysis (MA)
-##### Courses
+### Reverse Engineering (RE) & Malware Analysis (MA)
+#### Courses
 - [**Debugger 1001: Visual Studio - OST2**](https://ost2.fyi/Dbg1001)
 - [**Architecture 1001: x86-64 Assembly - OST2**](https://ost2.fyi/Arch1001)
 
-##### Tools
+#### Tools
 - [**IDA Pro**](https://hex-rays.com/ida-pro)
 - [**Ghidra**](https://ghidra-sre.org/)
 - [**Radare2**](https://rada.re/n/) 
@@ -90,7 +92,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**Process Explorer**](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 
 
-##### Services
+#### Services
 - [**CAPEv2**](https://github.com/kevoreilly/CAPEv2)
 - [**UnpacMe**](https://www.unpac.me/#/)
 - [**AnyRun**](https://any.run/)
@@ -114,26 +116,26 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**VX Underground**](https://vx-underground.org/)
 
 ---
-#### Malware & Exploit Development
-##### Books
+### Malware & Exploit Development
+#### Books
 - TBD ...
 
-##### Courses
+#### Courses
 - [**Windows Internals Courses - Pavel Yosifovich**](https://trainsec.net/courses/windows-internals-bundle/)
 - [**RED TEAM Operator: Malware Development Essentials Course - sektor7**](https://institute.sektor7.net/red-team-operator-malware-development-essentials)
 
-##### Tools
+#### Tools
 - [**Visual Studio**](https://visualstudio.microsoft.com/)
 
 ---
-#### Cyber Threat Intelligence (CTI)
-##### Courses
+### Cyber Threat Intelligence (CTI)
+#### Courses
 - [**GCIA - GIAC Cyber Threat Intelligence**](https://www.giac.org/certification/cyber-threat-intelligence-gcia)
 - [**Cyber Threat Intelligence 101 - ArcX**](https://www.arcx.org/cyber-threat-intelligence-101)
 - [**Cyber Threat Intelligence Practitioner - ArcX**](https://www.arcx.org/cyber-threat-intelligence-practitioner)
 - [**Advanced Cyber Threat Intelligence Analyst - ArcX**](https://www.arcx.org/advanced-cyber-threat-intelligence-analyst-201)
 
-##### Books
+#### Books
 - Uncertain Shield: The U.S. Intelligence System in the Throes of Reform - by Richard A. Posner (Hoover Studies in Politics, Economics, and Society) 
 - Deception: The Untold Story of East-West Espionage Today - by Edward Lucas 
 - Enemies of Intelligence: Knowledge and Power in American National Security - by Richard K. Betts 
@@ -153,7 +155,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - Permanent Record - by Edward Snowden 
 - The Art of Cyberwarfare: An Investigator's Guide to Espionage, Ransomware, and Organized Cybercrime - by Jon DiMaggio 
 
-##### Tools
+#### Tools
 - [**MISP**](https://www.misp-project.org/)
 - [**OpenCTI**](https://www.opencti.io/)
 - [**TheHive**](https://thehive-project.org/)
@@ -170,7 +172,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**ThreatConnect**](https://www.threatconnect.com/)
 - [**Fofa**](https://fofa.info/)
 
-##### Platforms
+#### Platforms
 - [**AlienVault OSSIM**](https://www.alienvault.com/products/ossim)
 - [**Elastic Security**](https://www.elastic.co/security)
 - [**Splunk**](https://www.splunk.com/)
@@ -180,13 +182,13 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**ThreatConnect**](https://www.threatconnect.com/)
 - [**ThreatQ**](https://www.threatq.com/)
 
-##### Frameworks
+#### Frameworks
 - [**MITRE ATT&CK**](https://attack.mitre.org/)
 - [**Diamond Model of Intrusion Analysis**](https://www.diamondmodel.org/)
 - [**Cyber Kill Chain**](https://www.lockheedmartin.com/en-us/capabilities/security/cyber/cyber-kill-chain.html)
 - [**Cyber Threat Intelligence (CTI) Lifecycle**](https://www.nist.gov/itl/applied-cybersecurity/cybersecurity-framework/cyber-threat-intelligence-cti-lifecycle)
 
-##### Data Feeds
+#### Data Feeds
 - [**AlienVault Open Threat Exchange (OTX)**](https://otx.alienvault.com/)
 - [**AbuseIPDB**](https://www.abuseipdb.com/)
 - [**URLhaus**](https://urlhaus.abuse.ch/)
@@ -198,7 +200,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**AbuseIPDB**](https://www.abuseipdb.com/)
 - [**URLhaus**](https://urlhaus.abuse.ch/)
 
-##### Services
+#### Services
 - [**Google Threat Intelligence (GTI)**](https://gtidocs.virustotal.com/)
 - [**SOCRadar**](https://socradar.io/)
 - [**CrowdStrike Intelligence**](https://www.crowdstrike.com/products/intelligence/)
@@ -209,16 +211,16 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**MITRE ATT&CK**](https://attack.mitre.org/)
 
 ---
-#### Vulnerability Assessment & Management
+### Vulnerability Assessment & Management
 - [**Qualys**](https://www.qualys.com/)
 - [**Tenable.io (Nessus)**](https://www.tenable.com/products/tenable-io)
 
 ---
-#### Penetration Testing
-##### Books
+### Penetration Testing
+#### Books
 - [**Penetration Testing: A Hands-On Introduction to Hacking by Georgia Weidman**](https://www.goodreads.com/book/show/18771903-penetration-testing)
 
-##### Tools 
+#### Tools 
 - [**Cobalt Strike**](https://www.cobaltstrike.com/)
 - [**Burp Suite Pro**](https://portswigger.net/burp)
 - [**CrackmapExec**](https://github.com/byt3bl33d3r/CrackMapExec)
@@ -235,28 +237,28 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**SQLMap**](https://sqlmap.org/)
 
 ---
-#### EDRs (Detection and Response)
+### EDRs (Detection and Response)
 - [**CrowdStrike**](https://www.crowdstrike.com/en-us/)
 - [**SentinelOne**](https://www.sentinelone.com/)
 
-#### Operating Systems
+### Operating Systems
 - [**Linux**](https://www.linux.org/)
 - [**Windows**](https://www.microsoft.com/en-us/windows)
 - [**macOS**](https://www.apple.com/macos/)
 
-#### Cloud Platforms
+### Cloud Platforms
 - [**Amazon Web Services (AWS)**](https://aws.amazon.com/)
 - [**Microsoft Azure**](https://azure.microsoft.com/)
 - [**Google Cloud Platform (GCP)**](https://cloud.google.com/)
 
-#### Version Control
+### Version Control
 - [**Git**](https://git-scm.com/)
 - [**GitHub**](https://github.com/)
 - [**GitLab**](https://gitlab.com/)
 - [**Bitbucket**](https://bitbucket.org/)
 - [**SourceForge**](https://sourceforge.net/)
 
-#### Virtualization & Containerization
+### Virtualization & Containerization
 - [**Docker**](https://www.docker.com/)
 - [**Kubernetes**](https://kubernetes.io/)
 - [**VirtualBox**](https://www.virtualbox.org/)
@@ -265,7 +267,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - [**Proxmox VE**](https://www.proxmox.com/en/proxmox-ve)
 
 ---
-### Earned Certifications InRelation W/ University
+## 🎓  Earned Certifications InRelation W/ University
 - Fortinet  - NSE 2 Network Security Associate
 - Fortinet  - NSE 1 Network Security Associate
 - Microsoft - Microsoft Technology Associate: Security Fundamentals (MTA)
