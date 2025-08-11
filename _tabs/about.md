@@ -44,7 +44,7 @@ My journey in cybersecurity is driven by a passion for uncovering vulnerabilitie
 - TBD ...
 
 ---
-### Trainings, Courses, Books, Used OS, Tools, Solutions & Platforms
+### Technical Expertise & Training
 
 #### Programming
 
