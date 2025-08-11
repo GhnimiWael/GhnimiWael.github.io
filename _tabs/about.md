@@ -15,7 +15,7 @@ With a strong foundation in both **offensive security (Red Team)** and **defensi
 I thrive on complex challenges, whether it’s **tracking sophisticated threat actors**, **developing custom security tools**, or **conducting deep-dive investigations** into evolving attack vectors. I believe in **continuous learning, research, and collaboration** to stay ahead in the rapidly changing cyber threat landscape.
 
 
-## 🎓 Certifications & Professional Achievements
+## Certifications & Professional Achievements
 - OSEP (PEN-300) - Experienced Penetration Tester (Advanced Evasion Techniques and Breaching Defenses)
 - eWAPTx - Web application Penetration Tester eXtreme
 - eJPT - eLearnsecurity Junior Penetration Testing
@@ -29,7 +29,7 @@ I thrive on complex challenges, whether it’s **tracking sophisticated threat a
 ![CTI101.webp](assets/img/certs/CTI101.webp){: width="120" height="120" .normal} ![pro-lab-dante.svg](assets/img/ic-dante-overview.svg){: width="200" height="200" .normal} ![icttf-logo](assets/img/certs/icttf-logo.png){: width="200" height="200" .normal}
 
 ---
-## 🛠 Research, Projects & Tool Development
+## Research, Projects & Tool Development
 #### Penetration Testing & Red Teaming
 - [**LDAPHunter - LDAP Enumeration Tool**](https://github.com/GhnimiWael/LDAPHunter): A Python tool automates LDAP enumeration for penetration testers, extracting users, groups, organizational units (OUs), password policies, and other critical Active Directory/LDAP information.
 
@@ -47,7 +47,7 @@ I thrive on complex challenges, whether it’s **tracking sophisticated threat a
 - TBD ...
 
 ---
-## 📚 Technical Expertise & Training (Learning, Research & Knowledge Base)
+## Technical Expertise & Training (Learning, Research & Knowledge Base)
 
 This section catalogs the books, courses, tools, and platforms I use to sharpen my skills and stay at the forefront of the field.
 
@@ -270,7 +270,7 @@ This section catalogs the books, courses, tools, and platforms I use to sharpen 
 - [**Proxmox VE**](https://www.proxmox.com/en/proxmox-ve)
 
 ---
-## 🎓  Earned Certifications InRelation W/ University
+## Earned Certifications InRelation W/ University
 - Fortinet  - NSE 2 Network Security Associate
 - Fortinet  - NSE 1 Network Security Associate
 - Microsoft - Microsoft Technology Associate: Security Fundamentals (MTA)
